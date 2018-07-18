@@ -23,13 +23,16 @@ var t_pl_PL: TalkyardTranslations = t = {
   Add: "Dodaj",
   AddingDots: "Dodawanie ...",
   Admin: "Admin",
+  AdvSearch: "Advanced search",   // MISSING
   Away: "Zaraz wracam",
+  Back: "Back",       // MISSING
   BlogN: "Blog",
   Bookmarks: "Zakładki",
   Cancel: "Anuluj",
   Categories: "Kategorie",
   Category: "Kategoria",
   Continue: "Kontynuuj",
+  ClickToShow: "Click to show",     // MISSING
   ChangeDots: "Zmień ...",
   ChatN: "Czat",
   Close: "Zamknij",
@@ -41,7 +44,10 @@ var t_pl_PL: TalkyardTranslations = t = {
   EmailAddress: "Adres email",
   Forum: "Forum",
   Hide: "Ukryj",
+  Home: "Home",     // MISSING
   Idea: "Pomysł",
+  Join: "Join",    // MISSING
+  KbdShrtcsC: "Keyboard shortcuts: ",   // MISSING
   Loading: "Ładowanie...",
   LoadMore: "Załaduj więcej ...",
   LogIn: "Zaloguj",
@@ -52,7 +58,7 @@ var t_pl_PL: TalkyardTranslations = t = {
   Move: "Przenieś",
   Name: "Imię",
   NameC: "Imię:",
-  None: "Żaden",
+  Notifications: "Powiadomienia",
   NotImplemented: "(Nie zaimplementowano)",
   NotYet: "Jeszcze nie",
   NoTopics: "Brak wątków.",
@@ -67,14 +73,17 @@ var t_pl_PL: TalkyardTranslations = t = {
   Reopen: "Otwórz ponownie",
   ReplyV: "Odpowiedz",
   Replies: "Odpowiedzi",
+  replies: "odpowiedzi",
   Save: "Zapisz",
   SavingDots: "Zapisywanie ...",
   SavedDot: "Zapisano.",
+  Search: "Search",     // MISSING
   SendMsg: "Wyślij wiadomość",
   SignUp: "Zarejestruj się",
   Solution: "Rozwiązanie",
   Summary: "Podsumowanie",
   Submit: "Zatwierdź",
+  Tools: "Tools",     // MISSING
   Topics: "Wątki",
   TopicType: "Typ wątku",
   UploadingDots: "Przesyłanie...",
@@ -82,7 +91,8 @@ var t_pl_PL: TalkyardTranslations = t = {
   Users: "Użytkownicy",
   Welcome: "Witaj",
   Wiki: "Wiki",
-  you: "Ty",
+  You: "Ty",
+  you: "ty",
 
   // Trust levels.
   Guest:  "Gość",
@@ -101,14 +111,77 @@ var t_pl_PL: TalkyardTranslations = t = {
   PastYear: "Ostatni rok",
   AllTime: "Od początku",
 
+  // Time ago letters.
+  // English examples: "3d" in forum topic list means 3 days ago. "5h" is 5 hours.
+  monthsLtr: "mon",  // months     // MISSING
+  daysLtr: "d",      // days       // MISSING
+  hoursLtr: "h",     // hours       // MISSING
+  minsLtr: "m",      // minutes     // MISSING
+  secsLtr: "s",      // seconds     // MISSING
+
+  // Time ago, long text versions.
+  daysAgo: (numDays: number) =>
+    numDays === 1 ? "1 day ago" : `${numDays} days ago`,     // MISSING
+
+  hoursAgo: (numHours: number) =>
+    numHours === 1 ? "1 hour ago" : `${numHours} hours ago`,     // MISSING
+
+  minutesAgo: (numMins: number) =>
+    numMins === 1 ? "1 minute ago" : `${numMins} minutes ago`,     // MISSING
+
+  secondsAgo: (numSecs: number) =>
+    numSecs === 1 ? "1 second ago" : `${numSecs} seconds ago`,     // MISSING
+
+
+  // Input fields, e.g. email, name etc.
+
+  inp: {   // MISSING  15 fields here:
+    // Email address input field:
+    EmReq: "Email required",
+    NoSpcs: "No spaces please",
+    InvldAddr: "Not a valid email address",
+    NoBadChrs: "No weird characters please",
+
+    // Full name input field:
+    NotOnlSpcs: "Not just spaces please",
+    NoAt: "No @ please",
+
+    // Username input field:
+    NoDash: "No dashes (-) please",
+    DontInclAt: "Don't include the @",
+    StartEndLtrDgt: "Start and end with a letter or a digit",
+    OnlLtrNumEtc: "Only letters (a-z, A-Z) and numbers, and _ (underscore)",
+    // This shown just below the username input:
+    UnUnqShrt_1: "Your ",
+    UnUnqShrt_2: "@username",
+    UnUnqShrt_3: ", unique and short",
+
+    // Generic messages for all input fields:
+    TooShort: (minLength: number) => `Should be at least ${minLength} characters`,
+    TooLong: (maxLength: number) => `Too long. Should be at most ${maxLength} characters`,
+  },
+
 
   // Notification levels.
+
   nl: {
     WatchingAll: "Wszystkie powiadomienia",
+    WatchingAllTag: "You'll be notified of new topics with this tag, and every post in those topics",     // MISSING
+    WatchingAllTopic: "You'll be notified of all new replies in this topic.",     // MISSING
+
+    // One will be notified about the *first* post in a new topic, only. That is, the Original Post
+    // (that's what the first post is called, in a discussion forum topic).
     WatchingFirst: "Powiadamiaj tylko o nowych wątkach",
+    WatchingFirstTag: "You'll be notified of new topics with this tag",     // MISSING
+
     Tracking: "Śledzone",
+
     Normal: "Podstawowe powiadomienia",
+    NormalTopic_1: "You'll be notified if someone replies to you or mentions your ",     // MISSING
+    NormalTopic_2: "@name",     // MISSING
+
     Muted: "Brak powiadomień",
+    MutedTopic: "No notifications about this topic.",     // MISSING
   },
 
 
@@ -203,6 +276,8 @@ var t_pl_PL: TalkyardTranslations = t = {
     LastReplyOn: "\nOstatnia odpowiedź ",
     EditedOn: "\nEdytowany ",
 
+    // These are shown as mouse-hover tooltips, or mobile-phone-touch-tips, over the user
+    // avatar icons, in the forum topic list.
     createdTheTopic: "utworzył wątek",
     frequentPoster: "często piszący",
     mostRecentPoster: "napisał ostatni post",
@@ -239,6 +314,37 @@ var t_pl_PL: TalkyardTranslations = t = {
   },
 
 
+  // Topbar
+
+  // Shown at the top of the page. Includes login and signup buttons, or one's username menu.
+
+  tb: {     // MISSING  9 fields here
+
+    // Opens the right hand sidebar and litst the most recent posts in the current topic.
+    RecentPosts: "Recent posts",
+
+    // Open right-hand-sidebar button tooltip, if mouse-hovering online-user-count.
+    NumOnlChat: " online in this chat",    // example: "5 online in this chat"
+    NumOnlForum: " online in this forum",
+
+    // Open left-sidebar button title.
+    WatchbBtn: "Your topics",
+
+    // Tooltip, shown if mouse-hovering the open-left-sidebar button.
+    WatchbToolt: "Your recent topics, joined chats, direct messages",
+
+    // Title shown on user profile pages.
+    AbtUsr: "About User",
+
+    // Shortcuts to leave the user profile page, or staff area, and go back to the discussion topics.
+    BackFromUsr: "Back from user profile",
+    BackFromAdm: "Back from admin area",
+
+    // Title shown on full text search page.
+    SearchPg: "Search Page",
+  },
+
+
   // Watchbar (the sidebar to the left)
 
   wb: {
@@ -248,6 +354,8 @@ var t_pl_PL: TalkyardTranslations = t = {
     ChatChannels: "Czaty",
     CreateChat: "Utwórz czat",
     DirectMsgs: "Wiadomości bezpośrednie",
+    NoChats: "Żaden",    // meaning: "No chat messages"
+    NoDirMsgs: "Żaden",  // meaning: "No direct messages"
 
     // The click-topic dropdown menu:
     TopicActions: "Opcje wątku",
@@ -278,16 +386,29 @@ var t_pl_PL: TalkyardTranslations = t = {
     AdminGuide: "Przewodnik administratora",
     Guide: "Przewodnik",
 
+    // How to hide the sidebar.
+    CloseShortcutS: "Zamknij (skrót klawiaturowy: S)",
+
+    // ----- Online users list / Users in current topic
+
     AddPeople: "Dodaj więcej osób",
 
+    // Shown next to one's own username, in a list of users.
     thatsYou: "to Ty",
-    YouAnd: "Ty, oraz ",
+
+    // Info about which people are online.
+    // Example, in English: "Online users: You, and 5 people who have not logged in"
     OnlyYou: "Tylko Ty",
+    YouAnd: "Ty, oraz ",
     NumStrangers: (numStrangers: number) => {
       const people = numStrangers === 1 ? " użytkownik" : " użytkowników";
       const have = numStrangers === 1 ? "" : "";
       return numStrangers + people + " którzy " + have + " nie są zalogowani";
     },
+
+    // ----- Recent comments list
+
+    // This explains how the Recent tab in the sidebar works.
 
     RepliesToTheLeft: "Odpowiedzi po lewej są sortowane według ",
     bestFirst: "najpierw najlepsze.",
@@ -295,27 +416,31 @@ var t_pl_PL: TalkyardTranslations = t = {
     insteadBy: " te same odpowiedzi są sortowane według: ",
     newestFirst: "najpierw najnowsze.",
 
-    SoIfLeave: "Więc jeśli wrócisz tu później, poniżej znajdziesz",
+    SoIfLeave: "Więc jeśli wrócisz tu później, poniżej znajdziesz ",
     allNewReplies: "wszystkie nowe odpowiedzi.",
-    Click: "Kliknij, ",
+    Click: "Kliknij",  // MAYBE end with ',' ?
     aReplyToReadIt: " aby zobaczyć całą odpowiedź.",
-
-    CloseShortcutS: "Zamknij (skrót klawiaturowy: S)",
   },
 
 
   // Discussion / non-chat page
 
   d: {
+    // These texts are split into parts 1,2 or 1,2,3 ec, because in between the texts,
+    // icons are shown, to help people understand what those icons mean.
+
     ThisFormClosed_1: "Ten wątek ",
+    // A Topic-has-been-Closed icon shown here, between text parts 1 (just above) and 2 (below).
     ThisFormClosed_2: "został zamknięty, nie możesz już tutaj pisać.",
 
     ThisTopicClosed_1: "Ten wątek został ",
+    // A Topic-has-been-Closed icon, + the text "closed", shown here.
     // ... "zamknięty" ...
     ThisTopicClosed_2: ". Wciąż możesz komentować, " +
           "ale to nie spowoduje przesunięcia wątku na górę listy ostatnio aktywnych tematów.",
 
-    ThisQuestSloved_1: "To jest pytanie na które",
+    ThisQuestSloved_1: "To jest pytanie na które ",
+    // A  Topic-has-been-Answered icon shown here.
     ThisQuestSloved_2: "odpowiedziano.",
 
     ThisQuestWaiting_1: "To ",
@@ -323,50 +448,54 @@ var t_pl_PL: TalkyardTranslations = t = {
     ThisQuestWaiting_3: "odpowiedź.",
 
     ThisProblSolved_1: "To jest problem który ",
-    ThisProblSolved_2: "rozwiązano.",
+    ThisProblSolved_2: " rozwiązano.",
 
     ThisProblStarted_1: "To jest problem. Zaczęliśmy ",
-    ThisProblStarted_2: "nad nim pracować, ale jeszcze nie",
+    ThisProblStarted_2: " nad nim pracować, ale jeszcze nie ",
     ThisProblStarted_3: " skończyliśmy.",
 
     ThisProblPlanned_1: "To jest problem. Planujemy ",
-    ThisProblPlanned_2: "to naprawić, ale jeszcze ",
-    ThisProblPlanned_3: "nie zaczęliśmy, jeszcze nie",
-    ThisProblPlanned_4: "skończyliśmy",
+    ThisProblPlanned_2: " to naprawić, ale jeszcze ",
+    ThisProblPlanned_3: " nie zaczęliśmy, jeszcze nie ",
+    ThisProblPlanned_4: " skończyliśmy.",
 
     ThisProblemNew_1: "To jest ",
-    ThisProblemNew_2: "problem. Jeszcze go nie ",
-    ThisProblemNew_3: "rozwiązaliśmy.",
+    ThisProblemNew_2: " problem. Jeszcze go nie ",
+    ThisProblemNew_3: " rozwiązaliśmy.",
 
     ThisIdeaDone_1: "To zostało ",
-    ThisIdeaDone_2: "zaimplementowane.",
+    ThisIdeaDone_2: " zaimplementowane.",
 
     ThisIdeaStarted_1: "Zaczęliśmy ",
-    ThisIdeaStarted_2: "to implementować, ale jeszcze nie ",
-    ThisIdeaStarted_3: "skończyliśmy.",
+    ThisIdeaStarted_2: " to implementować, ale jeszcze nie ",
+    ThisIdeaStarted_3: " skończyliśmy.",
 
     ThisIdeaPlanned_1: "Planujemy ",
-    ThisIdeaPlanned_2: "to zaimplementować, ale jeszcze nie ",
-    ThisIdeaPlanned_3: "zaczęliśmy, jeszcze nie",
-    ThisIdeaPlanned_4: "skończyliśmy",
+    ThisIdeaPlanned_2: " to zaimplementować, ale jeszcze nie ",
+    ThisIdeaPlanned_3: " zaczęliśmy, jeszcze nie ",
+    ThisIdeaPlanned_4: " skończyliśmy.",
 
     ThisIdeaNew_1: "To jest ",
-    ThisIdeaNew_2: "pomysł. Jeszcze nie wiemy ",
-    ThisIdeaNew_3: "kiedy zaczniemy go implementować, jeszcze nie",
-    ThisIdeaNew_4: "zaczęliśmy, jeszcze nie",
-    ThisIdeaNew_5: "skończyliśmy",
+    ThisIdeaNew_2: " pomysł. Jeszcze nie wiemy ",
+    ThisIdeaNew_3: " kiedy zaczniemy go implementować, jeszcze nie ",
+    ThisIdeaNew_4: " zaczęliśmy, jeszcze nie ",
+    ThisIdeaNew_5: " skończyliśmy.",
 
     ThisPageDeleted: "Ta strona została usunięta",
-    CatDeldPageToo: "Kategoria została usunięta, więc ta strona również.",
+    CatDeldPageToo: "Kategoria została usunięta, więc ta strona również",
 
     AboutCat: "O kategorii:",
 
-    PageDeleted: "(Strona usunięta)",
-    TitlePendAppr: "(Tytuł oczekuje na zatwierdzenie)",
-    TextPendingApproval: "(Tekst oczekuje na zatwierdzenie)",
+    ThreadDeld: "Thread deleted",     // MISSING
+    CmntDeld: "Comment deleted",      // MISSING
+    PostDeld: "Post deleted",         // MISSING
+    DiscDeld: "Discussion deleted",   // MISSING
+    PageDeld: "Strona usunięta",
+    TitlePendAppr: "Tytuł oczekuje na zatwierdzenie",
+    TextPendingApproval: "Tekst oczekuje na zatwierdzenie",
 
     TooltipQuestClosedNoAnsw: "To pytanie zostało zamknięte. Żadna odpowiedź nie została zaakceptowana.",
-    TooltipTopicClosed: "Ten wątek jest zamknięty",
+    TooltipTopicClosed: "Ten wątek jest zamknięty.",
 
     TooltipQuestSolved: "Zaakceptowano odpowiedź na to pytanie",
     TooltipQuestUnsolved: "Nie zaakceptowano żadnej odpowiedzi na to pytanie",
@@ -418,8 +547,8 @@ var t_pl_PL: TalkyardTranslations = t = {
     ManyDisagree: "Wielu się z tym nie zgadza:",
     SomeDisagree: "Niektórzy nie zgadzają się z tym:",
 
-    CmtPendAppr: "Komentarz oczekuje na zatwierdzenie",
-    CmtBelowPendAppr: (isYour) => (isYour ? "" : "") + "",
+    CmtPendAppr: "Komentarz oczekuje na zatwierdzenie ",
+    CmtBelowPendAppr: (isYour) => (isYour ? "Your" : "The") + " comment below is pending approval.", // MISSING
 
     _and: " i",
 
@@ -430,6 +559,30 @@ var t_pl_PL: TalkyardTranslations = t = {
 
     By: "Przez ", // ... someones name
   },
+
+
+  // Metabar
+
+  // Shown between the original post and all replies.
+
+  mb: {    // MISSING 5 fields here
+    NotfsAbtThisC: "Notifications about this topic:",
+
+    // If is a direct message topic, members listed below this text.
+    Msg: "Message",
+
+    SmrzRepls: "Summarize Replies",
+
+    // Don't bother about being correct with "1 reply", "2,3,4 replies".
+    // Just write "replies" always instead? (also if only one)
+
+    EstTime: (numReplies: number, minutes: number) =>
+        `There are ${numReplies} replies. Estimated reading time: ${minutes} minutes`,
+
+    DoneSummarizing: (numSummarized: number, numShownBefore: number) =>
+        `Done. Summarized ${numSummarized} replies, of the ${numShownBefore} replies previously shown.`,
+  },
+
 
   // Post actions
 
@@ -442,10 +595,10 @@ var t_pl_PL: TalkyardTranslations = t = {
     CloseToDoTooltip: "Oznacz jako zakończone.",
     CloseTopicTooltip: "Zamknij ten wątek jeśli nie wymaga on dalszej dyskusji.",
 
-    AcceptBtnExpl: "Zaakceptuj tę odpowiedź jako rozwiązanie problemu.",
+    AcceptBtnExpl: "Zaakceptuj tę odpowiedź jako rozwiązanie problemu",
     SolutionQ: "Rozwiązanie?",
     ClickUnaccept: "Kliknij aby odznaczyć akceptację tej odpowiedzi",
-    PostAccepted: "Ta odpowiedź została oznaczona jako rozwiązanie: ",
+    PostAccepted: "Ta odpowiedź została oznaczona jako rozwiązanie",
 
     NumLikes: (num: number) => num === 1 ? "1 polubienie" : num + " polubienia",
     NumDisagree: (num: number) => num + " nie zgadza się z tym",
@@ -471,6 +624,15 @@ var t_pl_PL: TalkyardTranslations = t = {
     UnWikify: "Usuń z wiki",
     Wikify: "Umieść w wiki",
     PinDeleteEtc: "Przypnij / Usuń / Kategoria ...",
+  },
+
+
+  // Share dialog
+
+  sd: {
+    Copied: "Copied.",                    // MISSING
+    CtrlCToCopy: "Hit CTRL+C to copy.",   // MISSING
+    ClickToCopy: "Click to copy link.",   // MISSING
   },
 
 
@@ -504,11 +666,55 @@ var t_pl_PL: TalkyardTranslations = t = {
   },
 
 
+  // Scroll buttons
+
+  sb: {    // MISSING  all fields in this section
+    ScrollToC: "Scroll to:",
+    Scroll: "Scroll",
+
+    // The Back button, and the letter B is a keyboard shortcut.
+    // If in your language, "Back" doesn't start with 'B', then instead
+    // set Back_1 to '' (empty text), and Back_2 to:  "Back (B)" — and "Back" (but not "B")
+    // translated to your language.
+    Back_1: "B",
+    Back_2: "ack",
+    BackExpl: "Scroll back to your previous position on this page",
+
+    // These are useful on mobile — then, no keybard with Home (= scroll to top) and End buttons.
+    // And, on a keyboard, once you get used to it, it's quite nice to click 1 to go to the
+    // top, and 2 to see the first reply, and B to go back, F forward, so on.
+    PgTop: "Page top",
+    PgTopHelp: "Go to the top of the page. Shortcut: 1 (on a keyboard)",
+    Repl: "Replies",
+    ReplHelp: "Go to the Replies section. Shortcut: 2",
+    Progr: "Progress",
+    // The Progress section is at the end of the page, and there, things like
+    // "Alice changed status to Doing" and "Alise marked this as Done" and "Topic closed by ..."
+    // are shown. (And, optionally, comments by staff or the people working with the issue.)
+    ProgrHelp: "Go to the Progress section. Shortcut: 3",
+    PgBtm: "Page bottom",
+    Btm: "Bottom",
+    BotmHelp: "Go to the bottom of the page. Shortcut: 4",
+
+    // "Keyboard shrotcuts: ..., and B to scroll back"
+    Kbd_1: ", and ",
+    // then the letter 'B' (regardless of language)
+    Kbd_2: " to scroll back",
+  },
+
+
   // About user dialog
 
   aud: {
-    ViewComments: "Wyświetl inne komentarze",
+    IsMod: "Is moderator.",                // MISSING
+    IsAdm: "Is administrator.",            // MISSING
+    IsDeld: "Is deactivated or deleted.",  // MISSING
     ThisIsGuest: "Ten użytkownik to anonimowy gość.",
+    ViewInAdm: "View in Admin Area",      // MISSING
+    ViewProfl: "View Profile",            // MISSING
+    ViewComments: "Wyświetl inne komentarze",
+    RmFromTpc: "Remove from topic",        // MISSING
+    EmAdrUnkn: "Email address unknown — this guest won't be notified about replies.",    // MISSING
   },
 
 
@@ -517,7 +723,6 @@ var t_pl_PL: TalkyardTranslations = t = {
   upp: {
     // ----- Links
 
-    Notifications: "Powiadomienia",
     Preferences: "Ustawienia",
     Invites: "Zaproszenia",
     About: "O mnie",
@@ -539,6 +744,16 @@ var t_pl_PL: TalkyardTranslations = t = {
     UploadPhoto: "Prześlij avatar",
     ChangePhoto: "Zmień avatar",
     ImgTooSmall: "Obraz jest zbyt mały, powinien mieć wymiary conajmniej 100 x 100",
+
+    // ----- Activity
+
+    OnlyStaffCanSee: "Only staff and trusted core members, can see this.",             // MISSING
+    OnlyMbrsCanSee: "Only people who have been active members for a while can see this.",   // MISSING
+    Nothing: "Nothing to show",    // MISSING
+    Posts: "Posts",                // MISSING
+    NoPosts: "No posts.",          // MISSING
+    Topics: "Topics",              // MISSING
+    NoTopics: "No topics.",        // MISSING
 
     // ----- User status
 
@@ -595,7 +810,7 @@ var t_pl_PL: TalkyardTranslations = t = {
 
     // The username:
     MayChangeFewTimes: "Możesz zmienić ją tylko kilka razy.",
-    notSpecified: "nie określono",
+    notSpecified: "(nie określono)",
     ChangeUsername_1: "Możesz zmienić nazwę użytkownika tylko kilka razy.",
     ChangeUsername_2: "Zmienianie jej zbyt często może zbić innych z tropu — " +
         "nie będą wiedzieli kogo @wskazać mając na myśli Ciebie.",
@@ -712,6 +927,12 @@ var t_pl_PL: TalkyardTranslations = t = {
     Accept_3_User: "?",
     Accept_3_Owner: " dla właścicieli społeczności?",
 
+    // About "for site owners?" above:
+    // That's if someone creates his/her own community, via this software provided as
+    // Software-as-a-Service hosting. Then, there is / will-be a bit different
+    // Terms-of-Service to agree with, since being a community maintainer/owner, is different
+    // (more responsibility) than just signing up to post comments.
+
     YesAccept: "Tak, akceptuję",
   },
 
@@ -723,7 +944,7 @@ var t_pl_PL: TalkyardTranslations = t = {
     StrengthC: "Siła hasła: ",
     FairlyWeak: "Słabe.",
     toShort: "za krótkie",
-    TooShortMin10: "Za krótkie. Powinno mieć conajmniej 10 liter",
+    TooShort: (minLength: number) => `Za krótkie. Powinno mieć conajmniej ${minLength} liter`,
     PlzInclDigit: "Proszę użyć cyfry lub znaku specjalnego",
     TooWeak123abc: "Za słabe. Nie używaj hasł takich jak '12345' lub 'abcde'.",
     AvoidInclC: "Unikaj umieszczania (części) swoje imienia albo adresu email:",
@@ -734,6 +955,14 @@ var t_pl_PL: TalkyardTranslations = t = {
 
   ld: {
     NotFoundOrPrivate: "Strona nie istnieje lub nie masz uprawnień aby ją zobaczyć.",
+
+    // This is if you're admin, and click the Impersonate button to become someone else
+    // (maybe to troubleshoot problems with his/her account s/he has asked for help about),
+    // and then you, being that other user, somehow happen to open a login dialog
+    // (maybe because of navigating to a different part of the site that the user being
+    // impersonated cannot access) — then, that error message is shown: You're not allowed
+    // to login as *someone else* to access that part of the community, until you've first
+    // stopped impersonating the first user. (Otherwise, everything gets too complicated.)
     IsImpersonating: "Jesteś zalogowany jako użytkownik nie mający dostępu do wszystkich części " +
         "tego serwisu.",
         
@@ -773,6 +1002,9 @@ var t_pl_PL: TalkyardTranslations = t = {
     UsernameOrEmailC: "Nazwa użytkownika lub email:",
     PasswordC: "Hasło:",
     ForgotPwd: "Zapomniałeś hasła?",
+
+    NoPwd: "You have not yet chosen a password.",  // MISSING
+    CreatePwd: "Create password",                  // MISSING
   },
 
 
@@ -790,11 +1022,19 @@ var t_pl_PL: TalkyardTranslations = t = {
   },
 
 
+  // Help message dialog
+  help: {         // MISSING 2 fields here
+    YouCanShowAgain_1: "You can show help messages again, if you are logged in, by " +
+        "clicking your name and then ",
+    YouCanShowAgain_2: "Unhide help messages",
+  },
+
+
   // Editor
 
   e: {
     WritingSomethingWarning: "Pisałeś coś?",
-    UploadMaxOneFile: "Przepraszamy ale obecnie możesz przesłać tylko jeden plik na raz.",
+    UploadMaxOneFile: "Przepraszamy ale obecnie możesz przesłać tylko jeden plik na raz",
     PleaseFinishPost: "Najpierw zakończ pisanie swojego posta",
     PleaseFinishChatMsg: "Najpierw zakończ pisanie wiadomości na czacie",
     PleaseFinishMsg: "Najpierw zakończ pisanie wiadomości",
@@ -814,7 +1054,7 @@ var t_pl_PL: TalkyardTranslations = t = {
     exQuoted: "cytat",
     ExHeading: "Nagłówek",
 
-    TitlePlaceholder: "Wpisz tytuł - o co chodzi, w jednym krótkim zdaniu",
+    TitlePlaceholder: "Wpisz tytuł - o co chodzi, w jednym krótkim zdaniu?",
 
     EditPost_1: "Edytuj ",
     EditPost_2: "post ",
@@ -830,7 +1070,7 @@ var t_pl_PL: TalkyardTranslations = t = {
     SuggestIdea: "Zasugreuj pomysł",
     NewChat: "Nazwa i cel nowego kanału czatowego",
     NewPrivChat: "Nazwa i cel nowego prywatnego kanału czatowego",
-    AppendComment: "Napisz komentarz na dole strony",
+    AppendComment: "Napisz komentarz na dole strony:",
 
     ReplyTo: "Owpowiedz na ",
     ReplyTo_theOrigPost: "post rozpoczynający dyskusję",
@@ -910,6 +1150,19 @@ var t_pl_PL: TalkyardTranslations = t = {
     Form: "Formularz",
   },
 
+
+  // Join sub community dialog
+
+  jscd: {
+    NoMoreToJoin: "No more communities to join.",  // MISSING
+    SelCmty: "Select community ...",               // MISSING
+  },
+
+
+  // Search dialogs and the search page.
+  s: {
+    TxtToFind: "Text to search for",    // MISSING
+  }
 
 };
 
