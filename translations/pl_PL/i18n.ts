@@ -436,8 +436,7 @@ var t_pl_PL: TalkyardTranslations = t = {
     ThisTopicClosed_1: "Ten wątek został ",
     // A Topic-has-been-Closed icon, + the text "closed", shown here.
     // ... "zamknięty" ...
-    ThisTopicClosed_2: ". Wciąż możesz komentować, " +
-          "ale to nie spowoduje przesunięcia wątku na górę listy ostatnio aktywnych tematów.",
+    ThisTopicClosed_2: ". Wciąż możesz komentować.",   // REVIEW removed "won't make ... bump ..."
 
     ThisQuestSloved_1: "To jest pytanie na które ",
     // A  Topic-has-been-Answered icon shown here.
