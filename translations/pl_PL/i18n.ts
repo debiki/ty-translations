@@ -1038,8 +1038,8 @@ var t_pl_PL: TalkyardTranslations = t = {
     PleaseFinishMsg: "Najpierw zakończ pisanie wiadomości",
     PleaseSaveEdits: "Najpierw zapisz aktualne zmiany",
     PleaseSaveOrCancel: "Najpierw zapisz lub anuluj nowy temat",
-    CanContinueEditing: "Możesz kontynuować edycję tekstu, jeśli ponownie otworzysz edytor. " +
-        "(Ale tekst zostanie utracony, jeśli opuścisz tę stronę.)",
+    CanContinueEditing: "Możesz kontynuować edycję tekstu, jeśli ponownie otworzysz edytor.",
+        //"(Ale tekst zostanie utracony, jeśli opuścisz tę stronę.)",
     PleaseDontDeleteAll: "Proszę nie usuwaj całej treści. Napisz coś.",
     PleaseWriteSth: "Proszę, napisz coś.",
     PleaseWriteTitle: "Wpisz tytuł tematu.",
