@@ -657,8 +657,9 @@ var t_pl_PL: TalkyardTranslations = t = {
     NeedsReview: "Wymaga sprawdzenia ",
     AdminHelp: "Poproś Admina o pomoc ",
     StaffHelp: "Poproś załogę forum o pomoc ",
-    MoreNotfs: "Wyświetl więcej powiadomień...",
-    ViewProfile: "Wyświetl/Edytuj swój profil",
+    MoreNotfs: "Wyświetl więcej powiadomień",  // MISSING changed from "View more..." to "...all.."
+    DismNotfs: "Mark all as read",             // MISSING
+    ViewProfile: "Wyświetl swój profil",       // MAYBE  I removed "/Edytuj"
     LogOut: "Wyloguj",
     UnhideHelp: "Włącz wyświetlanie wskazówek",
   },
