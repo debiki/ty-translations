@@ -42,6 +42,7 @@ var t_pl_PL: TalkyardTranslations = t = {
   Discussion: "Dyskusja",
   EditV: "Edytuj",
   EmailAddress: "Adres email",
+  EmailAddresses: "Email addresses",  // MISSING
   Forum: "Forum",
   Hide: "Ukryj",
   Home: "Strona domowa",
@@ -65,6 +66,7 @@ var t_pl_PL: TalkyardTranslations = t = {
   Okay: "Ok",
   OkayDots: "Ok ...",
   Online: "Online",
+  onePerLine: "one per line",  // MISSING
   PreviewV: "Podgląd",
   Problem: "Problem",
   Question: "Pytanie",
@@ -790,10 +792,10 @@ var t_pl_PL: TalkyardTranslations = t = {
         "Wyślemy Twojemu przyjacielowi krótkiego email'a z linkiem " +
         "umożliwiającym natychmiastowe dołączenie, bez logowania. " +
         "Twój przyjaciel zostanie podstawowym członkiem, nie moderatorem, ani adminem.",
-    EnterEmail: "Wpisz adres email",
+    //EnterEmail: "Wpisz adres email",
     InvDone: "Zrobione. Zaraz wyślę wiadomość.",
-    InvErrJoinedAlready: "Ta osoba już jest członkiem tej społeczności",
-    InvErrYouInvAlready: "Już zaprosiłeś tę osobę",
+    //InvErrJoinedAlready: "Ta osoba już jest członkiem tej społeczności",
+    //InvErrYouInvAlready: "Już zaprosiłeś tę osobę",
 
     // ----- Preferences, About
 
