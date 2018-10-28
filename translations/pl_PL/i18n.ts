@@ -817,6 +817,7 @@ var t_pl_PL: TalkyardTranslations = t = {
         "nie będą wiedzieli kogo @wskazać mając na myśli Ciebie.",
 
     NotfAboutAll: "Powiadamiaj mnie o każdym nowym poście (dopóki nie wyłączysz powiadomień dla wątku lub kategorii)",
+    NotfAboutNewTopics: "Be notified about new topics (unless you mute the category)",  // MISSING
 
     ActivitySummaryEmails: "Email'e z podsumowaniem aktywności",
 
