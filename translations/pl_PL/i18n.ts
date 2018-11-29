@@ -165,20 +165,29 @@ var t_pl_PL: TalkyardTranslations = t = {
   // Notification levels.
 
   nl: {
-    WatchingAll: "Wszystkie powiadomienia",
-    WatchingAllTag: "Będziesz otrzymywać powiadomienia o nowych wątkach z tym tagiem i o każdym poście w tych wątkach.",
-    WatchingAllTopic: "Będziesz otrzymywać powiadomienia o wszystkich odpowiedziach w tym wątku.",
+    EveryPost: "Wszystkie powiadomienia",   // MISSING renamed from "Watching All" to "Every Post"
+    EveryPostInTopic: "Będziesz otrzymywać powiadomienia o wszystkich odpowiedziach w tym wątku.",
+    EveryPostInCat: "You'll be notified of all new topics and replies, in this category",  // MISSING
+    EveryPostInTopicsWithTag: "Będziesz otrzymywać powiadomienia o nowych wątkach z tym tagiem i o każdym poście w tych wątkach.",
+    EveryPostWholeSite: "You'll be notified of all new topics and replies, anywhere",  // MISSING
 
     // One will be notified about the *first* post in a new topic, only. That is, the Original Post
     // (that's what the first post is called, in a discussion forum topic).
-    WatchingFirst: "Powiadamiaj tylko o nowych wątkach",
-    WatchingFirstTag: "Powiadamiaj o nowych wątkach z tym tagiem.",
+    NewTopics: "Powiadamiaj tylko o nowych wątkach",   // MISSING renamed "Watching First" to "New Topics"
+    NewTopicsInCat: "You'll be notified of new topics in this category.",  // MISSING
+    NewTopicsWithTag: "Powiadamiaj o nowych wątkach z tym tagiem.",
+    NewTopicsWholeSite: "You'll be notified of new topics, anywhere.",  // MISSING
 
     Tracking: "Śledzone",
 
     Normal: "Podstawowe powiadomienia",
-    NormalTopic_1: "Otrzymasz powiadomienie, gdy ktoś Ci odpowie lub wspomni Twoją ",
-    NormalTopic_2: "@nazwęUżytkownika",
+    NormalDescr: "You'll be notified if someone talks to you, also indirectly, e.g. a " +   // MISSING
+      "reply to a reply to you.",
+    //NormalTopic_1: "Otrzymasz powiadomienie, gdy ktoś Ci odpowie lub wspomni Twoją ",
+    //NormalTopic_2: "@nazwęUżytkownika",
+
+    Hushed: "Hushed",  // MISSING
+    HushedDescr: "You'll be notified only if someone talks directly to you.",  // MISSING
 
     Muted: "Brak powiadomień",
     MutedTopic: "Brak powiadomień o tym wątku.",
