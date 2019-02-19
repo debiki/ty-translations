@@ -212,6 +212,8 @@ var t_pl_PL: TalkyardTranslations = t = {
 
     // Select category dropdown
 
+    from: "from",  // MISSING used like so:  "From <Category Name>" or "From All Categories"
+    in: "in",      // MISSING used like so:  "in <Category Name>" or "in All Categories"
     AllCats: "Wszystkie kategorie",
 
     // Topic sort order
@@ -235,16 +237,22 @@ var t_pl_PL: TalkyardTranslations = t = {
     ShowAllTopics: "Pokaż wszystkie wątki",
     ShowAllTopicsDescr: "Nie usunięte wątki",
 
+    WaitingTopics: "Waiting topics",          // MISSING
     OnlyWaiting: "Tylko oczekujące",
     OnlyWaitingDescr_1: "Pokaż tylko pytania ",
     OnlyWaitingDescr_2: "oczekujące ",
     OnlyWaitingDescr_3: "na rozwiązanie, oraz pomysły i problemy którymi jeszcze nikt się nie zajął",
 
+    YourTopics: "Your topics",       // MISSING
+    AssignedToYou: "Assigned to you", // MISSING
+
+    DeletedTopics: "Show deleted",   // MISSING
     ShowDeleted: "Pokaż usunięte",
     ShowDeletedDescr: "Pokaż wszystkie wątki łącznie z usuniętymi",
 
     // Rightmost buttons
 
+    ViewCategories: "View categories",  // MISSING
     EditCat: "Edytuj kategorię",
     CreateCat: "Utwórz kategorię",
     CreateTopic: "Nowy wątek",
