@@ -35,6 +35,7 @@ var t_pl_PL: TalkyardTranslations = t = {
   ClickToShow: "Kliknij, aby pokazać",
   ChangeDots: "Zmień ...",
   ChatN: "Czat",
+  CheckYourEmail: "Check your email",  // MISSING
   Close: "Zamknij",
   closed: "zamknięty",
   Created: "Utworzony",
