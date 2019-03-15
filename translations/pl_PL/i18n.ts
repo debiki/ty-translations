@@ -554,7 +554,7 @@ var t_pl_PL: TalkyardTranslations = t = {
     BottomCmtExpl_3: "Aby odpowiedzieć na wybrany post kliknij Odpowiedz.",
 
     AddComment: "Dodaj komentarz",
-    AddBottomComment: "Dodaj komentarz na sam koniec",
+    AddBottomComment: "Dodaj komentarz na sam koniec",  // MISSING
 
     PostHiddenClickShow: "Post ukryty; kliknij, aby zobaczyć",
     ClickSeeMoreRepls: "Kliknij, aby zobaczyć więcej odpowiedzi",
