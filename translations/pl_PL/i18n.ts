@@ -35,16 +35,22 @@ var t_pl_PL: TalkyardTranslations = t = {
   ClickToShow: "Kliknij, aby pokazać",
   ChangeDots: "Zmień ...",
   ChatN: "Czat",
+  Chatting: "Chatting",  // MISSING
   CheckYourEmail: "Check your email",  // MISSING
   Close: "Zamknij",
   closed: "zamknięty",
   Created: "Utworzony",
   Delete: "Usuń",
+  Deleted: "Deleted",  // MISSING
+  DirectMessage: "Direct message",  // MISSING
   Discussion: "Dyskusja",
   EditV: "Edytuj",
+  Editing: "Editing",  // MISSING
   EmailAddress: "Adres email",
   EmailAddresses: "Email addresses",  // MISSING
+  EmailSentD: "Email sent.",  // MISSING
   Forum: "Forum",
+  GetNotifiedAbout: "Get notified about",  // MISSING
   Hide: "Ukryj",
   Home: "Strona domowa",
   Idea: "Pomysł",
@@ -55,14 +61,18 @@ var t_pl_PL: TalkyardTranslations = t = {
   LogIn: "Zaloguj",
   LoggedInAs: "Zalogowany jako ",
   LogOut: "Wyloguj",
+  Maybe: "Maybe",  // MISSING
   MessageN: "Wiadomość",
   MoreDots: "Więcej...",
   Move: "Przenieś",
   Name: "Imię",
   NameC: "Imię:",
+  NewTopic: "New topic",  // MISSING
+  NoCancel: "No, cancel",  // MISSING
   Notifications: "Powiadomienia",
   NotImplemented: "(Nie zaimplementowano)",
   NotYet: "Jeszcze nie",
+  NoTitle: "No title",  // MISSING
   NoTopics: "Brak wątków.",
   Okay: "Ok",
   OkayDots: "Ok ...",
@@ -75,6 +85,7 @@ var t_pl_PL: TalkyardTranslations = t = {
   Remove: "Usuń",
   Reopen: "Otwórz ponownie",
   ReplyV: "Odpowiedz",
+  Replying: "Replying",  // MISSING
   Replies: "Odpowiedzi",
   replies: "odpowiedzi",
   Save: "Zapisz",
@@ -88,12 +99,16 @@ var t_pl_PL: TalkyardTranslations = t = {
   Submit: "Zatwierdź",
   Tools: "Narzędzia",
   Topics: "Wątki",
+  TopicTitle: "Topic title",  // MISSING
   TopicType: "Typ wątku",
   UploadingDots: "Przesyłanie...",
   Username: "Nazwa użytkownika",
   Users: "Użytkownicy",
   Welcome: "Witaj",
   Wiki: "Wiki",
+  Yes: "Yes",  // MISSING
+  YesBye: "Yes, bye",  // MISSING
+  YesDoThat: "Yes, do that",  // MISSING
   You: "Ty",
   you: "ty",
 
@@ -630,6 +645,7 @@ var t_pl_PL: TalkyardTranslations = t = {
     Report: "Zgłoś",
     ReportThisPost: "Zgłoś ten post",
     Admin: "Admin",
+    DiscIx: "Discussions index",  // MISSING
 
     Disagree: "Nie zgadzam się",
     DisagreeExpl: "Kliknij tutaj, aby wyrazić swój sprzeciw lub aby ostrzec innych przed błędami merytorycznymi.",
@@ -678,6 +694,7 @@ var t_pl_PL: TalkyardTranslations = t = {
     NeedsReview: "Wymaga sprawdzenia ",
     AdminHelp: "Poproś Admina o pomoc ",
     StaffHelp: "Poproś załogę forum o pomoc ",
+    DraftsEtc: "Drafts, bookmarks, tasks",  // MISSING
     MoreNotfs: "Wyświetl więcej powiadomień",  // MISSING changed from "View more..." to "...all.."
     DismNotfs: "Mark all as read",             // MISSING
     ViewProfile: "Wyświetl swój profil",       // MAYBE  I removed "/Edytuj"
@@ -745,9 +762,11 @@ var t_pl_PL: TalkyardTranslations = t = {
 
     Preferences: "Ustawienia",
     Invites: "Zaproszenia",
+    DraftsEtc: "Drafts etc",  // MISSING
     About: "O mnie",
     Privacy: "Prywatność",
     Account: "Konto",
+    Interface: "Interface",  // MISSING
 
     // ----- Overview stats
 
@@ -793,6 +812,15 @@ var t_pl_PL: TalkyardTranslations = t = {
     NoNotfs: "Brak powiadomień",
     NotfsToYouC: "Powiadomienia dla Ciebie:",
     NotfsToOtherC: (name: string) => `Powiadomienia dla ${name}:`,
+    DefNotfsSiteWide: "Default notifications, site wide",  // MISSING
+    // The "for" in:  "Default notifications, site wide, for (someone's name)".
+    forWho: "for",  // MISSING
+
+    // ----- Drafts Etc page
+
+    NoDrafts: "No drafts",  // MISSING
+    YourDraftsC: "Your drafts:",  // MISSING
+    DraftsByC: (name: string) => `Drafts by ${name}:`,  // MISSING
 
     // ----- Invites page
 
@@ -804,6 +832,7 @@ var t_pl_PL: TalkyardTranslations = t = {
     WhoAccepted: "Użytkownink, który zaakceptował zaproszenie",
     InvAccepted: "Zaproszenie zaakceptowane",
     InvSent: "Zaproszenie wysłane",
+    JoinedAlready: "Joined already",  // MISSING
 
     SendAnInv: "Wyślij zaproszenie",
     SendInv: "Wyślij zaproszenie",
@@ -813,8 +842,16 @@ var t_pl_PL: TalkyardTranslations = t = {
         "Twój przyjaciel zostanie podstawowym członkiem, nie moderatorem, ani adminem.",
     //EnterEmail: "Wpisz adres email",
     InvDone: "Zrobione. Zaraz wyślę wiadomość.",
-    //InvErrJoinedAlready: "Ta osoba już jest członkiem tej społeczności",
-    //InvErrYouInvAlready: "Już zaprosiłeś tę osobę",
+    // MISSING x 9:
+    NoOneToInv: "No one to invite.",
+    InvNotfLater: "I'll notify you later, when I've invited them.",
+    AlreadyInvSendAgainQ: "These have been invited already — maybe you'd like to invite them again?",
+    InvErr_1: "These resulted in ",
+    InvErr_2: "errors",
+    InvErr_3: ":",
+    TheseJoinedAlrdyC: "These have joined already, so I didn't invite them:",
+    ResendInvsQ: "Re-send invitations to these people? They have been invited already.",
+    InvAgain: "Invite again",
 
     // ----- Preferences, About
 
@@ -879,6 +916,13 @@ var t_pl_PL: TalkyardTranslations = t = {
     EmailStatusExpl:
         "('Domyślny' oznacza, że możesz zalogować się za pomocą tego adresu i że na ten adres wysyłamy powiadomienia. " +
         "'Zweryfikowany' oznacza, że kliknąłeś w wysłany link weryfikacyjny.)",
+
+    // Password:     // MISSING x 4
+    ChangePwdQ: "Change password?",
+    CreatePwdQ: "Create password?",
+    WillGetPwdRstEml: "You'll get a reset password email.",
+    // This is the "None" in:  "Password: None"
+    PwdNone: "None",
 
     // Logins:
     LoginMethods: "Metody logowania",
@@ -1148,8 +1192,16 @@ var t_pl_PL: TalkyardTranslations = t = {
 
     PreviewInfo: "Tutaj możesz zobaczyć, jak będzie wyglądać Twój post.",
     CannotType: "Nie możesz tutaj pisać.",
+
+    LoadingDraftDots: "Loading any draft...",  // MISSING
   },
 
+
+  // Select category dropdown
+
+  scd: {
+    SelCat: "Select category",  // MISSING
+  },
 
   // Page type dropdown
 
@@ -1183,6 +1235,15 @@ var t_pl_PL: TalkyardTranslations = t = {
   // Search dialogs and the search page.
   s: {
     TxtToFind: "Tekst do wyszukania",
+  },
+
+
+  // No internet    // MISSING x 3
+
+  ni: {
+    NoInet: "No internet connection",
+    PlzRefr: "Refresh page to see any latest changes. (There was a disconnection)",
+    RefrNow: "Refresh now",
   }
 
 };
