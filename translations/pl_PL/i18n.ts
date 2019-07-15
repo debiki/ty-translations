@@ -235,15 +235,12 @@ var t_pl_PL: TalkyardTranslations = t = {
     // Topic sort order
 
     Active: "Aktywne",
-    ActiveTopics: "Aktywne wątki",
     ActiveDescr: "Ostatnio aktywne jako pierwsze",
 
     New: "Nowy",
-    NewTopics: "Nowe wątki",
     NewDescr: "Nowe jako pierwsze",
 
     Top: "Top",
-    TopTopics: "Popularne wątki",
     TopDescr: "Popularne jako pierwsze",
 
     // Topic filter dropdown
@@ -475,8 +472,6 @@ var t_pl_PL: TalkyardTranslations = t = {
     ThisPageDeleted: "Ta strona została usunięta",
     CatDeldPageToo: "Kategoria została usunięta, więc ta strona również",
 
-    AboutCat: "O kategorii:",
-
     ThreadDeld: "Wątek usunięty",
     CmntDeld: "Komentarz usunięty",
     PostDeld: "Post usunięty",
@@ -516,18 +511,6 @@ var t_pl_PL: TalkyardTranslations = t = {
 
     SolvedClickView_1: "Rozwiązanie w poście nr ",
     SolvedClickView_2: ", kliknij, aby wyświetlić",
-
-    AboveBestFirst: "Powyżej: Najlepsze odpowiedzi jako pierwsze.",
-    BelowCmtsEvents: "Poniżej: Komentarze i wydarzenia.",
-
-    BottomCmtExpl_1: "Dodajesz komentarz który zostanie na dole strony. " +
-        "Nie zostanie przeniesiony na górę, nawet jeśli zostanie polubiony.",
-    BottomCmtExpl_2: "Jest to przydatne, gdy chcesz napisać dlaczego zamykasz/otwierasz wątek. " +
-        "Albo gdy chcesz zasugerować zmiany w pierwszym poście.",
-    BottomCmtExpl_3: "Aby odpowiedzieć na wybrany post kliknij Odpowiedz.",
-
-    AddComment: "Dodaj komentarz",
-    AddBottomComment: "Dodaj komentarz na sam koniec",  // MISSING
 
     PostHiddenClickShow: "Post ukryty; kliknij, aby zobaczyć",
     ClickSeeMoreRepls: "Kliknij, aby zobaczyć więcej odpowiedzi",
@@ -579,8 +562,6 @@ var t_pl_PL: TalkyardTranslations = t = {
   // Post actions
 
   pa: {
-    ReplyToOp: "Odpowiedz na pierwszy post",
-
     CloseOwnQuestionTooltip: "Zamknij ten wątek, jeśli nie potrzebujesz już odpowiedzi.",
     CloseOthersQuestionTooltip: "Zamknij ten wątek, jeśli już nie jest potrzebna odpowiedź, np. gdy " +
         "odpowiedź znajduje się w innym temacie.",
