@@ -487,19 +487,15 @@ var t_pl_PL: TalkyardTranslations = t = {
 
     TooltipProblFixed: "To zostało naprawione",
     TooltipDone: "To zostało ukończone",
-    ClickStatusNew: "Kliknij, aby zmienić status na nowy",
 
     TooltipFixing: "Właśnie się tym zajmujemy",
     TooltipImplementing: "Właśnie to implementujemy",
-    ClickStatusDone: "Kliknij, aby oznaczyć jako zakończone",
 
     TooltipProblPlanned: "Planujemy to naprawić",
     TooltipIdeaPlanned: "Planujemy to zaimplementować",
-    ClickStatusStarted: "Kliknij, aby oznaczyć jako rozpoczęte",
 
     TooltipUnsProbl: "To jest nie rozwiązany problem",
     TooltipIdea: "To jest pomysł",
-    ClickStatusPlanned: "Kliknij, aby oznaczyć jako zaplanowane",
 
     TooltipPersMsg: "Wiadomość prywatna",
     TooltipChat: "# oznacza czat",
