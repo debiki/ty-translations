@@ -251,7 +251,6 @@ var t_pl_PL: TalkyardTranslations = t = {
     ShowAllTopicsDescr: "Nie usunięte wątki",
 
     WaitingTopics: "Waiting topics",          // MISSING
-    OnlyWaiting: "Tylko oczekujące",
     OnlyWaitingDescr_1: "Pokaż tylko pytania ",
     OnlyWaitingDescr_2: "oczekujące ",
     OnlyWaitingDescr_3: "na rozwiązanie, oraz pomysły i problemy którymi jeszcze nikt się nie zajął",
@@ -527,7 +526,6 @@ var t_pl_PL: TalkyardTranslations = t = {
     _and: " i",
 
     repliesTo: "replies to",  // MISSING
-    dashInReplyTo: "— w odpowiedzi do",
     InReplyTo: "W odpowiedzi do",
 
     ClickViewEdits: "Kliknij, aby zobaczyć poprzednie wersje",
