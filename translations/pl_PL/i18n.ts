@@ -228,6 +228,13 @@ var t_pl_PL: TalkyardTranslations = t = {
   },
 
 
+  // Forum categories
+
+  fcs: {
+    All: "Wszystkie", // "All (categories)", shorter than AllCats
+  },
+
+
   // Forum buttons
 
   fb: {
