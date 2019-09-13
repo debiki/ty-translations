@@ -965,13 +965,14 @@ var t_pl_PL: TalkyardTranslations = t = {
   cud: {
     CreateUser: "Utwórz użytkownika",
     CreateAccount: "Utwórz konto",
-    LoginAsGuest: "Zaloguj jako gość",
-    EmailPriv: "Email: (nie będzie publicznie dostępny)",
-    EmailOptPriv: "Email: (opcjonalny, nie będzie publicznie dostępny)",
+    EmailC: "Email:",
+    keptPriv: "nie będzie publicznie dostępny",
+    forNotfsKeptPriv: "otrzymywać powiadomienia o odpowiedziach, nie będzie publicznie dostępny",  // MISSING, used Google Translate
     EmailVerifBy_1: "Twwój email został zweryfikowany przez ",
     EmailVerifBy_2: ".",
-    Username: "Nazwa użytkownika: (unikalna i krótka)",
-    FullName: "Pełne imię: (opcjonalne)",
+    UsernameC: "Nazwa użytkownika:",
+    FullNameC: "Pełne imię:",
+    optName: "opcjonalny",
 
     OrCreateAcct_1: "Albo ",
     OrCreateAcct_2: "utwórz konto",
@@ -1045,9 +1046,9 @@ var t_pl_PL: TalkyardTranslations = t = {
     ElseGoToHome_2: "przejść na stronę główną.",
 
     CreateAcconut: "Utwórz  konto",
+    ContinueWithDots: "Kontynuuj z ...",  // MAYBE
     SignUp: "Zarejestruj się",
     LogIn: "Zaloguj się",
-    with_: "za pomocą ",
     LogInWithPwd: "Zaloguj się przy użyciu hasła",
     CreateAdmAcct: "Utwórz konto administratora:",
     AuthRequired: "Do uzyskania dostępu do tej witryny wymagane jest uwierzytelnienie",
@@ -1068,7 +1069,8 @@ var t_pl_PL: TalkyardTranslations = t = {
 
     OrCreateAcctHere: "Lub utwórz nowe konto:",
     OrTypeName: "Lub wpisz swoje imię:",
-    OrFillIn: "Lub wypełnij:",
+    OrLogIn: "Lub zaloguj się:",  // was: "Lub wypełnij:".  MAYBE
+    YourNameQ: "Twoje imię?",   // MAYBE
 
     BadCreds: "Zła nazwa użytkownika lub hasło",
 
