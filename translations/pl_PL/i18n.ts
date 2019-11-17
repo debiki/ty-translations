@@ -191,9 +191,9 @@ var t_pl_PL: TalkyardTranslations = t = {
   nl: {
     EveryPost: "Wszystkie powiadomienia",   // MISSING renamed from "Watching All" to "Every Post"
     EveryPostInTopic: "Będziesz otrzymywać powiadomienia o wszystkich odpowiedziach w tym wątku.",
-    EveryPostInCat: "You'll be notified of all new topics and replies, in this category",  // MISSING
+    EveryPostInCat: "You'll be notified of all new topics and replies, in this category.",  // MISSING
     EveryPostInTopicsWithTag: "Będziesz otrzymywać powiadomienia o nowych wątkach z tym tagiem i o każdym poście w tych wątkach.",
-    EveryPostWholeSite: "You'll be notified of all new topics and replies, anywhere",  // MISSING
+    EveryPostWholeSite: "You'll be notified of all new topics and replies, anywhere.",  // MISSING
 
     // One will be notified about the *first* post in a new topic, only. That is, the Original Post
     // (that's what the first post is called, in a discussion forum topic).
