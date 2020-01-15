@@ -105,6 +105,8 @@ var t_pl_PL: TalkyardTranslations = t = {
   started: "started",  // MISSING
   Summary: "Podsumowanie",
   Submit: "Zatwierdź",
+  Tag: "Tag",  // MISSING
+  Tags: "Tags",  // MISSING
   Tools: "Narzędzia",
   Topics: "Wątki",
   TopicTitle: "Topic title",  // MISSING
@@ -565,6 +567,16 @@ var t_pl_PL: TalkyardTranslations = t = {
 
     repliesTo: "replies to",  // MISSING
     InReplyTo: "W odpowiedzi do",
+    YourReplyTo: "Your reply to ",  // MISSING
+    YourChatMsg: "Your chat message: ",   // MISSING
+    YourDraft: "Your draft",    // MISSING
+    YourEdits: "Your edits: ",   // MISSING
+    YourProgrNoteC: "Your progress note:",  // MISSING
+    aProgrNote: "a progress note: ",  // MISSING
+
+    UnfinEdits: "Unfinished edits",  // MISSING
+    ResumeEdting: "Resume editing",  // MISSING
+    DelDraft: "Delete draft",   // MISSING
 
     ClickViewEdits: "Kliknij, aby zobaczyć poprzednie wersje",
 
@@ -1208,6 +1220,7 @@ var t_pl_PL: TalkyardTranslations = t = {
     LoadingDraftDots: "Loading any draft...",  // MISSING
     DraftUnchanged: "Unchanged.",     // MISSING
     CannotSaveDraftC: "Cannot save draft:",     // MISSING
+    DraftSavedBrwsr: "Draft saved, in browser.",   // MISSING
     DraftSaved: (nr: string | number) => `Draft ${nr} saved.`,     // MISSING
     DraftDeleted: (nr: string | number) => `Draft ${nr} deleted.`,     // MISSING
     WillSaveDraft: (nr: string | number) => `Will save draft ${nr} ...`,     // MISSING
