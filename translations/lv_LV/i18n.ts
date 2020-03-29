@@ -14,7 +14,7 @@
 
 var t: TalkyardTranslations;
 
-var t_en_US: TalkyardTranslations = t = {
+var t_lv_LV: TalkyardTranslations = t = {
 
   // A single or a few words, sorted alphabetically, to reuse everywhere.
 
@@ -22,6 +22,7 @@ var t_en_US: TalkyardTranslations = t = {
   Activity: "Aktivitāte",
   Add: "Pievienot",
   AddingDots: "Pievieno ...",
+  AddComment: "Pievienot komentāru",  // MAYBE
   Admin: "Admins",
   AdvSearch: "Papildināta meklēšana",
   Away: "Izgājis",
@@ -40,6 +41,7 @@ var t_en_US: TalkyardTranslations = t = {
   CheckYourEmail: "Pārbaudi savu e-pastu",
   Close: "Aizvērt",
   closed: "aizvērts",
+  comments: "komentāri",   // as in:  "123 comments"   MAYBE
   Created: "Izveidots",
   Delete: "Dzēst",
   Deleted: "Dzēsts",
@@ -49,6 +51,7 @@ var t_en_US: TalkyardTranslations = t = {
   done: "kārtībā",
   EditV: "Labot",
   Editing: "Labo",
+  EmailC: "Epasts: ",
   EmailAddress: "E-pasta adrese",
   EmailAddresses: "E-pasta adreses",
   EmailSentD: "E-pasts nosūtīts.",
@@ -100,11 +103,14 @@ var t_en_US: TalkyardTranslations = t = {
   SavedDot: "Saglabāts.",
   Search: "Meklēt",
   SendMsg: "Sūtīt ziņu",
+  ShowPreview: "Rādīt priekšskatījumu",  // MAYBE
   SignUp: "Reģistrēties",
   Solution: "Risinājums",
   started: "uzsākts",
   Summary: "Kopsavilkums",
   Submit: "Apstiprināt",
+  Tag: "Tag",  // MISSING
+  Tags: "Tags",  // MISSING
   Tools: "Rīki",
   Topics: "Tēmas",
   TopicTitle: "Tēmas virsraksts",
@@ -269,7 +275,7 @@ var t_en_US: TalkyardTranslations = t = {
 
     WaitingTopics: "Neatrisinātas tēmas",          // MISSING
     OnlyWaitingDescr_1: "Rāda tikai tēmas ", // MISSING changed "questions" to "topics"
-    OnlyWaitingDescr_2: "gaidot",
+    OnlyWaitingDescr_2: "gaidot ",
     OnlyWaitingDescr_3: "risinājumu vai ieviešanu",  // MISSING rewrote
 
     YourTopics: "Tavas tēmas",       // MISSING
@@ -460,7 +466,7 @@ var t_en_US: TalkyardTranslations = t = {
     RepliesToTheLeft: "Atbildes kreisajā pusē tiek kārtotas kā ",
     bestFirst: "labākās vispirms.",
     ButBelow: "Bet lejā ",
-    insteadBy: "tās pašas atbildes tiek kārtotas kā ",
+    insteadBy: " tās pašas atbildes tiek kārtotas kā ",
     newestFirst: "jaunākās vispirms.",
 
     SoIfLeave: "Līdz ar to, ja iziesi un atnāksi vēlāk atpakaļ, lejā atradīsi ",
@@ -566,6 +572,20 @@ var t_en_US: TalkyardTranslations = t = {
 
     repliesTo: "atbildes uz",
     InReplyTo: "Atbildē uz",
+    YourReplyTo: "Your reply to ",  // MISSING
+    YourChatMsg: "Your chat message: ",   // MISSING
+    YourDraft: "Your draft",    // MISSING
+    YourEdits: "Your edits: ",   // MISSING
+    YourProgrNoteC: "Your progress note:",  // MISSING
+    aProgrNote: "a progress note: ",  // MISSING
+
+    ReplyingToC: "Replying to:",    // MISSING
+    ScrollToPrevw_1: "Scroll to ",  // MISSING
+    ScrollToPrevw_2: "preview",     // MISSING
+
+    UnfinEdits: "Unfinished edits",  // MISSING
+    ResumeEdting: "Atsākt rediģēšanu",  // MAYBE
+    DelDraft: "Dzēst melnrakstu",   // MAYBE
 
     ClickViewEdits: "Klikšķini, lai skatītu vecos labojumus",
 
@@ -609,6 +629,7 @@ var t_en_US: TalkyardTranslations = t = {
   // Post actions
 
   pa: {
+    CloseTopic: "Aizvērt šo tēmu",  // MAYBE
     CloseOwnQuestionTooltip: "Aizvērt šo jautājumu, ja tev vairs nav nepieciešama atbilde.",
     CloseOthersQuestionTooltip: "Aizvērt šo jautājumu, ja uz to nav nepieciešama atbilde, piemēram - ja " +
         "tā ir beztēma vai uz to ir sniegta atbilde jau kādā citā tēmā.",
@@ -661,7 +682,7 @@ var t_en_US: TalkyardTranslations = t = {
 
   c: {
     About_1: "Šis ir ",
-    About_2: "čata kanāls, ko izveidoja ",
+    About_2: " čata kanāls, ko izveidoja ",
     ScrollUpViewComments: "Skrollē uz augšu, lai redzētu vecākus komentārus",
     Purpose: "Mērķis:",
     edit: "labot",
@@ -701,7 +722,7 @@ var t_en_US: TalkyardTranslations = t = {
     // set Back_1 to '' (empty text), and Back_2 to:  "Back (B)" — and "Back" (but not "B")
     // translated to your language.
     Back_1: "",
-    Back_2: "Atpakaļ (A)",
+    Back_2: "Atpakaļ (B)",
     BackExpl: "Skrollē atpakaļ uz iepriekšējo vietu šajā lapā",
 
     // These are useful on mobile — then, no keybard with Home (= scroll to top) and End buttons.
@@ -806,7 +827,7 @@ var t_en_US: TalkyardTranslations = t = {
     NoNotfs: "Nav paziņojumu",
     NotfsToYouC: "Paziņojumi tev:",
     NotfsToOtherC: (name: string) => `Paziņojumi priekš ${name}:`,
-    DefNotfsSiteWide: "Noklusējuma paziņojumi (visā lapā)",
+    DefNotfsSiteWide: "Noklusējuma paziņojumi, vietne plaša",  // MAYBE, but not: "visā lapā"  = whole *page*?
     // The "for" in:  "Noklusējuma paziņojumi (visā lapā) ".
     forWho: "priekš",
 
@@ -831,7 +852,7 @@ var t_en_US: TalkyardTranslations = t = {
     SendAnInv: "Uzaicināt cilvēkus", // was: "Send an Invite",   MISSING I18N all other langs
     SendInv: "Sūtīt uzaicinājumus",   // MISSING I18N is just "Send invite" (singularis) in all other langs
     SendInvExpl:  // MISSING I18N changed to pluralis
-        Mēs nosūtīsim taviem draugiem īsu vēstuli, un viņiem būs jānoklikšķina uz saites " +
+        "Mēs nosūtīsim taviem draugiem īsu vēstuli, un viņiem būs jānoklikšķina uz saites " +
         "lai uzreiz pievienotos, bez ienākšanas. " +
         "Viņi kļūs par normāliem lietotājiem (un nevis moderatoriem vai admninistratoriem).",
     //EnterEmail: "Ievadīt epastu(s)",
@@ -1019,7 +1040,7 @@ var t_en_US: TalkyardTranslations = t = {
     FairlyWeak: "Diezgan vāja.",
     toShort: "par īsu",
     TooShort: (minLength: number) => `Par īsu - jābūt vismaz ${minLength} rakstzīmes garai`,
-    PlzInclDigit: "Iekļauj arī vismaz vienu ciparu vai simbolu.",
+    PlzInclDigit: "Iekļauj arī vismaz vienu ciparu vai simbolu",
     TooWeak123abc: "Par vāju - neizmanto tādas paroles kā '12345' vai 'abcde'.",
     AvoidInclC: "Izvairies parolē iekļaut savu vārdu vai epastu, vai to daļas:",
   },
@@ -1126,7 +1147,7 @@ var t_en_US: TalkyardTranslations = t = {
     PleaseWriteMsg: "Raksti ziņu.",
 
     exBold: "treknrakstā",
-    exEmph: "ar pasvītrojumu ,
+    exEmph: "ar pasvītrojumu",
     exPre: "iepriekš formatēts",
     exQuoted: "citēts",
     ExHeading: "Virsraksts",
@@ -1152,6 +1173,7 @@ var t_en_US: TalkyardTranslations = t = {
     ReplyTo: "Atbildēt uz ",
     ReplyTo_theOrigPost: "oriģinālais ieraksts",
     ReplyTo_post: "ieraksts ",
+    AddCommentC: "Pievieno komentāru:",   // MAYBE
 
     PleaseSelectPosts: "Izvēlies vienu vai vairākus ierakstus, uz kuriem atbildēt.",
 
@@ -1159,6 +1181,7 @@ var t_en_US: TalkyardTranslations = t = {
     edits: "izmaiņas",
 
     PostReply: "Ieraksta atbilde",
+    PostComment: "Ieraksta komentārs",  // MAYBE
 
     Post: "Ieraksts",
     comment: "komentārs",
@@ -1199,7 +1222,7 @@ var t_en_US: TalkyardTranslations = t = {
     ShowEditorAgain: "Rādīt atkal rediģētāju",
     Minimize: "Minimizēt",
 
-    IPhoneKbdSpace_1: "(Šis pelēkais laukums ir rezervēts ",
+    IPhoneKbdSpace_1: "(Šis pelēkais laukums ir rezervēts",
     IPhoneKbdSpace_2: "iPhone klaviatūrai.)",
 
     PreviewInfo: "Te vari apskatīties, kā tavs ieraksts izskatīsies pēc publicēšanas.",
@@ -1207,7 +1230,8 @@ var t_en_US: TalkyardTranslations = t = {
 
     LoadingDraftDots: "Tiek atvērts melnraksts...",
     DraftUnchanged: "Bez izmaiņām.",
-    CannotSaveDraftC: "Nevar saglabāt melnrakstu.",
+    CannotSaveDraftC: "Nevar saglabāt melnrakstu:",
+    DraftSavedBrwsr: "Draft saved, in browser.",   // MISSING
     DraftSaved: (nr: string | number) => `Melnraksts ${nr} saglabāts.`,
     DraftDeleted: (nr: string | number) => `Melnraksts ${nr} izdzēsts.`,
     WillSaveDraft: (nr: string | number) => `Melnraksts ${nr} tiks saglabāts ...`,
@@ -1262,7 +1286,7 @@ var t_en_US: TalkyardTranslations = t = {
 
   ni: {
     NoInet: "Nav pieslēguma",
-    PlzRefr: "Ielādēt lapu atkārtoti, lai redzētu pēdējās izmaiņas (bija atslēgšanās).",
+    PlzRefr: "Ielādēt lapu atkārtoti, lai redzētu pēdējās izmaiņas. (Bija atslēgšanās)",
     RefrNow: "Pārlādēt",
   },
 
