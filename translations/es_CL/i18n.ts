@@ -22,7 +22,7 @@ var t_es_CL: TalkyardTranslations = t = {
   Activity: "Actividad",
   Add: "Agregar",
   AddingDots: "Agregando ...",
-  AddComment: "Agregar comentario",  // MISSING, & dupl t.e.AddCommentC
+  AddComment: "Agregar comentario",
   Admin: "Admin",
   AdvSearch: "Busqueda Avanzada",
   Away: "Alejado",
@@ -51,7 +51,7 @@ var t_es_CL: TalkyardTranslations = t = {
   done: "hecho",
   EditV: "Editar",
   Editing: "Editando",
-  EmailC: "Correo-e: ",   // MISSING  copy t.cud.EmailC to here
+  EmailC: "Correo-e: ",
   EmailAddress: "Dirección de correo electrónico",
   EmailAddresses: "Direcciones de correo electrónico",
   EmailSentD: "Correo enviado",
@@ -103,14 +103,14 @@ var t_es_CL: TalkyardTranslations = t = {
   SavedDot: "Guardado.",
   Search: "Buscar",
   SendMsg: "Enviar mensaje",
-  ShowPreview: "Mostrar vista previa",  // MISSING
+  ShowPreview: "Mostrar vista previa",
   SignUp: "Registrarse",
   Solution: "Solución",
   started: "iniciado",
   Summary: "Resumen",
   Submit: "Publicar",
-  Tag: "Etiqueta",  // MISSING
-  Tags: "Etiquetas",  // MISSING
+  Tag: "Etiqueta",
+  Tags: "Etiquetas",
   Tools: "Herramientas",
   Topics: "Conversaciones",
   TopicTitle: "Título de conversación",
@@ -132,7 +132,7 @@ var t_es_CL: TalkyardTranslations = t = {
   BasicMember: "Miembro básico",
   FullMember: "Miembro avanzado",
   TrustedMember: "Miembro de confianza",
-  RegularMember: "Miembro corriente",  // MISSING renamed Regular Member —> Trusted Regular [RENREGLS]
+  RegularMember: "Miembro corriente", // renamed Regular Member —> Trusted Regular [RENREGLS]
   CoreMember: "Miembro central",
 
   // Periods.
@@ -222,7 +222,7 @@ var t_es_CL: TalkyardTranslations = t = {
     HushedDescr: "Serás notificado sólo si alguien te habla directamente.",
 
     Muted: "Silenciado",
-    MutedTopic: "Sin notificaciones.",   // MISSING removed "about this topic"
+    MutedTopic: "Sin notificaciones.",
   },
 
 
@@ -251,19 +251,19 @@ var t_es_CL: TalkyardTranslations = t = {
 
     // Select category dropdown
 
-    from: "de",  // MISSING used like so:  "From <Category Name>" or "From All Categories"
-    in: "en",      // MISSING used like so:  "in <Category Name>" or "in All Categories"
+    from: "De",    // used like so:  "From <Category Name>" or "From All Categories"
+    in: "en",      // used like so:  "in <Category Name>" or "in All Categories"
     AllCats: "Todas las categorias",
 
     // Topic sort order
 
-    Active: "Más activas primero",      // MISSING didn't add "first" yet to transls
+    Active: "Más activas primero",
     ActiveDescr: "Muestra primero las conversaciones con actividad más reciente.",
 
     New: "Nuevas",
     NewDescr: "Muestra primero las conversaciones más nuevas",
 
-    Top: "Popular",              // MISSING didn't rename from Top to Popular in transls
+    Top: "Popular",
     TopDescr: "Muestra primero las conversaciones más populares",
 
     // Topic filter dropdown
@@ -273,21 +273,21 @@ var t_es_CL: TalkyardTranslations = t = {
     ShowAllTopics: "Mostrar todas la conversaciones",
     ShowAllTopicsDescr: "Una lista de todas las conversaciones",
 
-    WaitingTopics: "Conversaciones en espera",          // MISSING
-    OnlyWaitingDescr_1: "Muestra sólo conversaciones ", // MISSING changed "questions" to "topics"
+    WaitingTopics: "Conversaciones en espera",
+    OnlyWaitingDescr_1: "Muestra sólo conversaciones ",
     OnlyWaitingDescr_2: "esperando ",
-    OnlyWaitingDescr_3: "que se implemente una solución",  // MISSING rewrote
+    OnlyWaitingDescr_3: "que se implemente una solución",
 
-    YourTopics: "Tus conversaciones",       // MISSING
-    AssignedToYou: "Asignadas a ti", // MISSING
+    YourTopics: "Tus conversaciones",
+    AssignedToYou: "Asignadas a ti",
 
-    DeletedTopics: "Mostrar borradas",   // MISSING
+    DeletedTopics: "Mostrar borradas",
     ShowDeleted: "Mostrar borradas",
     ShowDeletedDescr: "Mostrar todas las conversaciones, incluso las borradas",
 
     // Rightmost buttons
 
-    ViewCategories: "Ver categorias",  // MISSING
+    ViewCategories: "Ver categorias",
     EditCat: "Editar categoría",
     CreateCat: "Crear Categoría",
     CreateTopic: "Crear Conversación",
@@ -401,7 +401,7 @@ var t_es_CL: TalkyardTranslations = t = {
 
   wb: {
     AddCommunity: "Agregar ...",
-    RecentlyViewed: "Conversaciones vistas recientemente",  // MISSING " topics"
+    RecentlyViewed: "Conversaciones vistas recientemente",
     JoinedChats: "Chats a los que te has unido",
     ChatChannels: "Canales de chat",
     CreateChat: "Crear canal de chat",
@@ -435,8 +435,8 @@ var t_es_CL: TalkyardTranslations = t = {
     UsersInThisChat: "Usuarios en este chat:",
     UsersInThisTopic: "Usuarios en esta conversación:",
 
-    GettingStartedGuide: "Guía del administrador", // MISSING in other langs, was: "Getting Started Guide".
-    AdminGuide: "Guía del administrador",          // ... but what? It's here already, just reuse this transl field
+    GettingStartedGuide: "Guía del administrador",
+    AdminGuide: "Guía del administrador",
     Guide: "Guía",
 
     // How to hide the sidebar.
@@ -534,8 +534,8 @@ var t_es_CL: TalkyardTranslations = t = {
     TooltipDone: "Esto ha sido realizado",
 
     StatusStarted: "Iniciado",
-    TooltipFixing: "Hemos comenzado a arreglar esto",      // MISSING "We're currently" —> "We've started"
-    TooltipImplementing: "Hemos comenzado a realizar esto", // MISSING  -""-
+    TooltipFixing: "Hemos comenzado a arreglar esto",
+    TooltipImplementing: "Hemos comenzado a realizar esto",
 
     StatusPlanned: "Planeado",
     TooltipProblPlanned: "Planeamos arreglar esto",
@@ -557,8 +557,8 @@ var t_es_CL: TalkyardTranslations = t = {
     SolvedClickView_2: ", clic para ver",
 
     PostHiddenClickShow: "Publiación olculta; clic para ver",
-    ClickSeeMoreRepls: "Mostrar más respuestas",      // MISSING  removed "Click to .." but only in en_US
-    ClickSeeMoreComments: "Mostrar más comentarios",  // MISSING
+    ClickSeeMoreRepls: "Mostrar más respuestas",
+    ClickSeeMoreComments: "Mostrar más comentarios",
     ClickSeeThisComment: "Clic para mostrar este comentario",
     clickToShow: "clic para mostrar",
 
@@ -572,20 +572,20 @@ var t_es_CL: TalkyardTranslations = t = {
 
     repliesTo: "responde a",
     InReplyTo: "En respuesta a",
-    YourReplyTo: "Tu respuesta a ",  // MISSING
-    YourChatMsg: "Tu mensaje de chat: ",   // MISSING
-    YourDraft: "Tu borrador",    // MISSING
-    YourEdits: "Tus ediciones: ",   // MISSING
-    YourProgrNoteC: "Tu nota de progreso:",  // MISSING
-    aProgrNote: "una nota de progreso: ",   / MISSING
+    YourReplyTo: "Tu respuesta a ",
+    YourChatMsg: "Tu mensaje de chat: ",
+    YourDraft: "Tu borrador",
+    YourEdits: "Tus ediciones: ",
+    YourProgrNoteC: "Tu nota de progreso:",
+    aProgrNote: "una nota de progreso: ",
 
-    ReplyingToC: "Respondiendo a:",    // MISSING
-    ScrollToPrevw_1: "Ir a ",  // MISSING
-    ScrollToPrevw_2: "vista previa",     // MISSING
+    ReplyingToC: "Respondiendo a:",
+    ScrollToPrevw_1: "Ir a ",
+    ScrollToPrevw_2: "vista previa",
 
-    UnfinEdits: "Ediciones no finalizadas",  // MISSING
-    ResumeEdting: "Resumir edición",  // MISSING
-    DelDraft: "Borrar borrador",   // MISSING
+    UnfinEdits: "Ediciones no finalizadas",
+    ResumeEdting: "Resumir edición",
+    DelDraft: "Borrar borrador",
 
     ClickViewEdits: "Clic para ver ediciones antiguas",
 
@@ -629,7 +629,7 @@ var t_es_CL: TalkyardTranslations = t = {
   // Post actions
 
   pa: {
-    CloseTopic: "Conversación cerrada",  // MISSING
+    CloseTopic: "Conversación cerrada",
     CloseOwnQuestionTooltip: "Cerrar esta pregunta si ya no necesitas una respuesta.",
     CloseOthersQuestionTooltip: "Cerrar esta pregunta si no necesita una respuesta, por ejemplo, si " +
         "es off-topic o ya ha sido resuelta en otra conversación.",
@@ -849,9 +849,9 @@ var t_es_CL: TalkyardTranslations = t = {
     InvSent: "Invitación enviada",
     JoinedAlready: "Ya se ha unido",
 
-    SendAnInv: "Invitar personas", // was: "Send an Invite",   MISSING I18N all other langs
-    SendInv: "Enviar invitaciones",   // MISSING I18N is just "Send invite" (singularis) in all other langs
-    SendInvExpl:  // MISSING I18N changed to pluralis
+    SendAnInv: "Invitar personas",
+    SendInv: "Enviar invitaciones",
+    SendInvExpl:
         "Le enviaremos a tus amigos un breve correo. Ellos harán clic en un enlace " +
         "para unirse inmediatamente, sin registrarse. " +
         "Ellos serán miembros normales, no moderadores ni administradores.",
@@ -1078,7 +1078,7 @@ var t_es_CL: TalkyardTranslations = t = {
     LogInToComment: "Ingresa para escribir un comentario",
     LogInToCreateTopic: "Ingresar para iniciar una conversación",
 
-    AlreadyHaveAcctQ: "¿Tienes una cuenta? ",  // MISSING changed "Already have...?" to "You have...?"
+    AlreadyHaveAcctQ: "¿Tienes una cuenta? ",
     LogInInstead_1: "",
     LogInInstead_2: "Ingresa",   // "Log in" (this is a button)
     LogInInstead_3: " ", // "instead"
@@ -1173,7 +1173,7 @@ var t_es_CL: TalkyardTranslations = t = {
     ReplyTo: "Responder a ",
     ReplyTo_theOrigPost: "el post original",
     ReplyTo_post: "post ",
-    AddCommentC: "Agregar un comentario:",   // MISSING, & dupl t.AddComment
+    AddCommentC: "Agregar un comentario:",
 
     PleaseSelectPosts: "Seleccionar uno o más post a los cuales responder.",
 
@@ -1231,7 +1231,7 @@ var t_es_CL: TalkyardTranslations = t = {
     LoadingDraftDots: "Cargando cualquier borrador...",
     DraftUnchanged: "No hay cambios.",
     CannotSaveDraftC: "No se puede guardar borrador:",
-    DraftSavedBrwsr: "Borrador guardado en navegador.",   // MISSING
+    DraftSavedBrwsr: "Borrador guardado en navegador.",
     DraftSaved: (nr: string | number) => `Borrador ${nr} guardado.`,
     DraftDeleted: (nr: string | number) => `Borrador ${nr} guardado.`,
     WillSaveDraft: (nr: string | number) => `Se guardará borrador ${nr} ...`,
