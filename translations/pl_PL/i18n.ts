@@ -964,7 +964,7 @@ var t_pl_PL: TalkyardTranslations = t = {
 
   // Group profile page     MISSING
   gpp: {
-    GroupMembers: "Group mebers",
+    GroupMembers: "Group members",
     NoMembers: "No members.",
     MayNotListMembers: "May not list members.",
     AddMembers: "Add Members",
