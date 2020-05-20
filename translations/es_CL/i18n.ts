@@ -401,8 +401,8 @@ var t_es_CL: TalkyardTranslations = t = {
 
   wb: {
     AddCommunity: "Agregar ...",
-    RecentlyViewed: "Conversaciones vistas recientemente",
-    JoinedChats: "Chats a los que te has unido",
+    RecentlyViewed: "Vistas recientemente",  // MAYBE. Was too long, removed "Conversaciones [...]", still ok Spanish?
+    JoinedChats: "Chats",  // MAYBE. Was too long, removed: " a los que te has unido".
     ChatChannels: "Canales de chat",
     CreateChat: "Crear canal de chat",
     DirectMsgs: "Mensajes directos",
