@@ -65,7 +65,7 @@ var t_he_IL: TalkyardTranslations = t = {
   Loading: "טוען...",
   LoadMore: "טען עוד ...",
   LogIn: "כנסי",
-  LoggedInAs: "מחוברת כ-",
+  LoggedInAs: "מחוברת כ- ",
   LogOut: "צאי",
   Maybe: "אולי",
   Manage: "נהלי",
@@ -144,6 +144,12 @@ var t_he_IL: TalkyardTranslations = t = {
 
   // Time ago letters.
   // English examples: "3d" in forum topic list means 3 days ago. "5h" is 5 hours.
+  //
+  // HOWEVER these should be *letters* only, not whole words.
+  // Does that work in Hebrew? In English: 3d = 3 days, would that be,
+  // in Hebrew,  3 ימ  ?
+  // (but '3' to the right of the letter, can't place '3' there in VSCode though,
+  // it gets confused by RTL and moves '3' to the left.)
   monthsLtr: " חודשים",  // months
   daysLtr: " ימים",      // days
   hoursLtr: " שעות",     // hours
