@@ -31,30 +31,30 @@ var t_pl_PL: TalkyardTranslations = t = {
   Cancel: "Anuluj",
   Categories: "Kategorie",
   Category: "Kategoria",
-  ChangeV: "Change",   // MISSING
+  ChangeV: "Zmiana",
   Continue: "Kontynuuj",
   ClickToShow: "Kliknij, aby pokazać",
   ChangeDots: "Zmień ...",
   ChatN: "Czat",
-  Chatting: "Chatting",  // MISSING
-  CheckYourEmail: "Check your email",  // MISSING
+  Chatting: "Rozmawiają",
+  CheckYourEmail: "Sprawdź skrzynkę mailową",
   Close: "Zamknij",
   closed: "zamknięty",
   Created: "Utworzony",
   Delete: "Usuń",
-  Deleted: "Deleted",  // MISSING
-  DirectMessage: "Direct message",  // MISSING
+  Deleted: "Usunięte",
+  DirectMessage: "Bezpośrednia wiadomość",
   Discussion: "Dyskusja",
   discussion: "dyskusja",
-  done: "done",  // MISSING
+  done: "zrobione",
   EditV: "Edytuj",
-  Editing: "Editing",  // MISSING
+  Editing: "Edytowane",
   EmailAddress: "Adres email",
-  EmailAddresses: "Email addresses",  // MISSING
-  EmailSentD: "Email sent.",  // MISSING
+  EmailAddresses: "Adresy mailowe",
+  EmailSentD: "Wysłano mail.",
   Forum: "Forum",
-  GetNotifiedAbout: "Get notified about",  // MISSING
-  GroupsC: "Groups:",  // MISSING
+  GetNotifiedAbout: "Powiadamiaj mnie o",
+  GroupsC: "Grupy:",
   Hide: "Ukryj",
   Home: "Strona domowa",
   Idea: "Pomysł",
@@ -65,34 +65,34 @@ var t_pl_PL: TalkyardTranslations = t = {
   LogIn: "Zaloguj",
   LoggedInAs: "Zalogowany jako ",
   LogOut: "Wyloguj",
-  Maybe: "Maybe",  // MISSING
-  Manage: "Manage",  // MISSING
-  Members: "Members",  // MISSING
+  Maybe: "Być może",
+  Manage: "Zarządzaj",
+  Members: "Członkowie",
   MessageN: "Wiadomość",
   MoreDots: "Więcej...",
   Move: "Przenieś",
   Name: "Imię",
   NameC: "Imię:",
-  NewTopic: "New topic",  // MISSING
-  NoCancel: "No, cancel",  // MISSING
+  NewTopic: "Nowy wątek",
+  NoCancel: "Ne, anuluj",
   Notifications: "Powiadomienia",
   NotImplemented: "(Nie zaimplementowano)",
   NotYet: "Jeszcze nie",
-  NoTitle: "No title",  // MISSING
+  NoTitle: "Bez tytułu",
   NoTopics: "Brak wątków.",
   Okay: "Ok",
   OkayDots: "Ok ...",
   Online: "Online",
-  onePerLine: "one per line",  // MISSING
+  onePerLine: "jeden na wiersz",
   PreviewV: "Podgląd",
   Problem: "Problem",
-  progressN: "progress",  // MISSING
+  progressN: "postęp",
   Question: "Pytanie",
   Recent: "Ostatni",
   Remove: "Usuń",
   Reopen: "Otwórz ponownie",
   ReplyV: "Odpowiedz",
-  Replying: "Replying",  // MISSING
+  Replying: "Odpowiadam",
   Replies: "Odpowiedzi",
   replies: "odpowiedzi",
   Save: "Zapisz",
@@ -100,26 +100,26 @@ var t_pl_PL: TalkyardTranslations = t = {
   SavedDot: "Zapisano.",
   Search: "Szukaj",
   SendMsg: "Wyślij wiadomość",
-  ShowPreview: "Show preview",  // MISSING
+  ShowPreview: "Pokaż podgląd",
   SignUp: "Zarejestruj się",
   Solution: "Rozwiązanie",
-  started: "started",  // MISSING
+  started: "rozpoczęto",
   Summary: "Podsumowanie",
   Submit: "Zatwierdź",
-  Tag: "Tag",  // MISSING
-  Tags: "Tags",  // MISSING
+  Tag: "Tag",
+  Tags: "Tagi",
   Tools: "Narzędzia",
   Topics: "Wątki",
-  TopicTitle: "Topic title",  // MISSING
+  TopicTitle: "Tytuł wątku",
   TopicType: "Typ wątku",
   UploadingDots: "Przesyłanie...",
   Username: "Nazwa użytkownika",
   Users: "Użytkownicy",
   Welcome: "Witaj",
   Wiki: "Wiki",
-  Yes: "Yes",  // MISSING
-  YesBye: "Yes, bye",  // MISSING
-  YesDoThat: "Yes, do that",  // MISSING
+  Yes: "Tak",
+  YesBye: "Tak, do widzenia",
+  YesDoThat: "Tak, zrób to",
   You: "Ty",
   you: "ty",
 
@@ -192,29 +192,29 @@ var t_pl_PL: TalkyardTranslations = t = {
   // Notification levels.
 
   nl: {
-    EveryPost: "Wszystkie powiadomienia",   // MISSING renamed from "Watching All" to "Every Post"
+    EveryPost: "Wszystkie powiadomienia",
     EveryPostInTopic: "Będziesz otrzymywać powiadomienia o wszystkich odpowiedziach w tym wątku.",
-    EveryPostInCat: "You'll be notified of all new topics and replies, in this category.",  // MISSING
+    EveryPostInCat: "Będziesz otrzymywać powiadomienia o wszystkich nowych wątkach i odpowiedziach w tej kategorii.",
     EveryPostInTopicsWithTag: "Będziesz otrzymywać powiadomienia o nowych wątkach z tym tagiem i o każdym poście w tych wątkach.",
-    EveryPostWholeSite: "You'll be notified of all new topics and replies, anywhere.",  // MISSING
+    EveryPostWholeSite: "Będziesz otrzymywać powiadomienia o wszystkich nowych wątkach i odpowiedziach.",
 
     // One will be notified about the *first* post in a new topic, only. That is, the Original Post
     // (that's what the first post is called, in a discussion forum topic).
-    NewTopics: "Powiadamiaj tylko o nowych wątkach",   // MISSING renamed "Watching First" to "New Topics"
-    NewTopicsInCat: "You'll be notified of new topics in this category.",  // MISSING
+    NewTopics: "Powiadamiaj tylko o nowych wątkach",
+    NewTopicsInCat: "Będziesz otrzymywać powiadomienia o wszystkich nowych wątkach w tej kategorii.",
     NewTopicsWithTag: "Powiadamiaj o nowych wątkach z tym tagiem.",
-    NewTopicsWholeSite: "You'll be notified of new topics, anywhere.",  // MISSING
+    NewTopicsWholeSite: "Będziesz otrzymywać powiadomienia o wszystkich nowych wątkach.",
 
     Tracking: "Śledzone",
 
     Normal: "Podstawowe powiadomienia",
-    NormalDescr: "You'll be notified if someone talks to you, also indirectly, e.g. a " +   // MISSING
-      "reply to a reply to you.",
+    NormalDescr: "Będziesz powiadamiany, gdy ktoś pisze do Ciebie, także niewprost, np. " +
+      "odpowiada na Twoją odpowiedź.",
     //NormalTopic_1: "Otrzymasz powiadomienie, gdy ktoś Ci odpowie lub wspomni Twoją ",
     //NormalTopic_2: "@nazwęUżytkownika",
 
-    Hushed: "Hushed",  // MISSING
-    HushedDescr: "You'll be notified only if someone talks directly to you.",  // MISSING
+    Hushed: "Wyciszony",
+    HushedDescr: "Będziesz powiadamiany, gdy ktoś pisze bezpośrednio do Ciebie.",
 
     Muted: "Brak powiadomień",
     MutedTopic: "Brak powiadomień o tym wątku.",
@@ -246,8 +246,8 @@ var t_pl_PL: TalkyardTranslations = t = {
 
     // Select category dropdown
 
-    from: "from",  // MISSING used like so:  "From <Category Name>" or "From All Categories"
-    in: "in",      // MISSING used like so:  "in <Category Name>" or "in All Categories"
+    from: "od",  // used like so:  "From <Category Name>" or "From All Categories"
+    in: "w",      // used like so:  "in <Category Name>" or "in All Categories"
     AllCats: "Wszystkie kategorie",
 
     // Topic sort order
@@ -268,21 +268,21 @@ var t_pl_PL: TalkyardTranslations = t = {
     ShowAllTopics: "Pokaż wszystkie wątki",
     ShowAllTopicsDescr: "Nie usunięte wątki",
 
-    WaitingTopics: "Waiting topics",          // MISSING
+    WaitingTopics: "Oczekujące wątki",
     OnlyWaitingDescr_1: "Pokaż tylko pytania ",
     OnlyWaitingDescr_2: "oczekujące ",
     OnlyWaitingDescr_3: "na rozwiązanie, oraz pomysły i problemy którymi jeszcze nikt się nie zajął",
 
-    YourTopics: "Your topics",       // MISSING
-    AssignedToYou: "Assigned to you", // MISSING
+    YourTopics: "Twoje wątki",
+    AssignedToYou: "Przypisane do Ciebie",
 
-    DeletedTopics: "Show deleted",   // MISSING
+    DeletedTopics: "Wątki usuniętę",
     ShowDeleted: "Pokaż usunięte",
     ShowDeletedDescr: "Pokaż wszystkie wątki łącznie z usuniętymi",
 
     // Rightmost buttons
 
-    ViewCategories: "View categories",  // MISSING
+    ViewCategories: "Pokaż kategorie",
     EditCat: "Edytuj kategorię",
     CreateCat: "Utwórz kategorię",
     CreateTopic: "Nowy wątek",
@@ -298,7 +298,7 @@ var t_pl_PL: TalkyardTranslations = t = {
   // Forum topic list
 
   ft: {
-    ExplIcons: "Obajśnij znaczenie ikon...",
+    ExplIcons: "Objaśnij znaczenie ikon...",
     IconExplanation: "Znaczenie ikon:",
     ExplGenDisc: "Ogólna dyskusja.",
     ExplQuestion: "Pytanie bez zaakceptowanej odpowiedzi.",
@@ -385,7 +385,7 @@ var t_pl_PL: TalkyardTranslations = t = {
 
     // Shortcuts to leave the user profile page, or staff area, and go back to the discussion topics.
     BackFromUsr: "Wyjdź z profilu użytkownika",
-    BackFromAdm: "Wyjdź z przestrzeni administratorskiej",
+    BackFromAdm: "Wyjdź z przestrzeni administracyjnej",
 
     // Title shown on full text search page.
     SearchPg: "Przeszukaj stronę",
@@ -471,25 +471,25 @@ var t_pl_PL: TalkyardTranslations = t = {
   },
 
 
-  // Change page dialog   MISSING
+  // Change page dialog
   cpd: {
-    ClickToChange: "Click to change status",
-    ClickToViewAnswer: "Click to view answer",
-    ViewAnswer: "View answer",
-    ChangeStatusC: "Change status to:",
-    ChangeCatC: "Change category:",
-    ChangeTopicTypeC: "Change topic type:",
+    ClickToChange: "Kliknij, aby zmienić status",
+    ClickToViewAnswer: "Kliknij, aby zobaczyć odpowiedź",
+    ViewAnswer: "Zobacz odpowiedź",
+    ChangeStatusC: "Zmień status na:",
+    ChangeCatC: "Zmień kategorię:",
+    ChangeTopicTypeC: "Zmień typ wątku:",
   },
 
 
-  // Page doing status, PageDoingStatus   MISSING
+  // Page doing status, PageDoingStatus
   pds: {
-    aQuestion: "a question",
-    hasAccptAns: "has an accepted answer",
-    aProblem: "a problem",
-    planToFix: "plan to fix",
-    anIdea: "an idea",
-    planToDo: "plan to do",
+    aQuestion: "pytanie",
+    hasAccptAns: "ma zaakceptowaną odpowiedź",
+    aProblem: "problem",
+    planToFix: "plan naprawy",
+    anIdea: "idea",
+    planToDo: "plan do zrobienia",
   },
 
 
@@ -525,20 +525,20 @@ var t_pl_PL: TalkyardTranslations = t = {
     TooltipQuestSolved: "Zaakceptowano odpowiedź na to pytanie",
     TooltipQuestUnsolved: "Nie zaakceptowano żadnej odpowiedzi na to pytanie",
 
-    StatusDone: "Done",  // MISSING
+    StatusDone: "Zrobione",
     TooltipProblFixed: "To zostało naprawione",
     TooltipDone: "To zostało ukończone",
 
-    StatusStarted: "Started",  // MISSING
+    StatusStarted: "Rozpoczęty",
     TooltipFixing: "Właśnie się tym zajmujemy",
     TooltipImplementing: "Właśnie to implementujemy",
 
-    StatusPlanned: "Planned",  // MISSING
+    StatusPlanned: "Zaplanowany",
     TooltipProblPlanned: "Planujemy to naprawić",
     TooltipIdeaPlanned: "Planujemy to zaimplementować",
 
-    StatusNew: "New",  // MISSING
-    StatusNewDtl: "New topic, under discussion",  // MISSING
+    StatusNew: "Nowy",
+    StatusNewDtl: "Nowy wątek, trwa dyskusja",
     TooltipUnsProbl: "To jest nie rozwiązany problem",
     TooltipIdea: "To jest pomysł",
 
@@ -566,36 +566,36 @@ var t_pl_PL: TalkyardTranslations = t = {
 
     _and: " i",
 
-    repliesTo: "replies to",  // MISSING
+    repliesTo: "odpowiedzi dla",
     InReplyTo: "W odpowiedzi do",
-    YourReplyTo: "Your reply to ",  // MISSING
-    YourChatMsg: "Your chat message: ",   // MISSING
-    YourDraft: "Your draft",    // MISSING
-    YourEdits: "Your edits: ",   // MISSING
-    YourProgrNoteC: "Your progress note:",  // MISSING
-    aProgrNote: "a progress note: ",  // MISSING
+    YourReplyTo: "Twoje odpowiedzi dla ",
+    YourChatMsg: "Twoja wiadomość na chacie: ",
+    YourDraft: "Twój szkic",
+    YourEdits: "Twoje poprawki: ",
+    YourProgrNoteC: "Twoja notatka postępu:",
+    aProgrNote: "notatka postępu: ",
 
-    ReplyingToC: "Replying to:",    // MISSING
-    ScrollToPrevw_1: "Scroll to ",  // MISSING
-    ScrollToPrevw_2: "preview",     // MISSING
+    ReplyingToC: "Odpowiadając na:",
+    ScrollToPrevw_1: "Przesuwając do ",
+    ScrollToPrevw_2: "podgląd",
 
-    UnfinEdits: "Unfinished edits",  // MISSING
-    ResumeEdting: "Resume editing",  // MISSING
-    DelDraft: "Delete draft",   // MISSING
+    UnfinEdits: "Niezakończone poprawki",
+    ResumeEdting: "Przywrócona edycja",
+    DelDraft: "Usunięty szkic",
 
     ClickViewEdits: "Kliknij, aby zobaczyć poprzednie wersje",
 
     By: "Przez ", // ... someones name
 
     // Discussion ...
-    aboutThisIdea: "about how and if to do this idea",  // MISSING
-    aboutThisProbl: "about how and if to fix this",  // MISSING
+    aboutThisIdea: "o tym jak i czy zrealizować ten pomysł",
+    aboutThisProbl: "o tym jak i czy poprawić to",
 
-    AddProgrNote: "Add progress note",  // MISSING
+    AddProgrNote: "Dodaj notatkę postępu",
     // Progress ...
-    withThisIdea: "with doing this idea",  // MISSING
-    withThisProbl: "with handling this problem",  // MISSING
-    withThis: "with doing this",  // MISSING
+    withThisIdea: "z realizacją tego pomysłu",
+    withThisProbl: "z rozwiązaniem tego problemu",
+    withThis: "z realizacją tego",
   },
 
 
@@ -647,7 +647,7 @@ var t_pl_PL: TalkyardTranslations = t = {
     Report: "Zgłoś",
     ReportThisPost: "Zgłoś ten post",
     Admin: "Admin",
-    DiscIx: "Discussions index",  // MISSING
+    DiscIx: "Indeks dyskusji",
 
     Disagree: "Nie zgadzam się",
     DisagreeExpl: "Kliknij tutaj, aby wyrazić swój sprzeciw lub aby ostrzec innych przed błędami merytorycznymi.",
@@ -696,11 +696,11 @@ var t_pl_PL: TalkyardTranslations = t = {
     NeedsReview: "Wymaga sprawdzenia ",
     AdminHelp: "Poproś Admina o pomoc ",
     StaffHelp: "Poproś załogę forum o pomoc ",
-    DraftsEtc: "Drafts, bookmarks, tasks",  // MISSING
-    MoreNotfs: "Wyświetl więcej powiadomień",  // MISSING changed from "View more..." to "...all.."
-    DismNotfs: "Mark all as read",             // MISSING
+    DraftsEtc: "Szkice, zakładki, zadania",
+    MoreNotfs: "Wyświetl więcej powiadomień",  // changed from "View more..." to "...all.."
+    DismNotfs: "Zaznacz wszystkie jako przeczytane",
     ViewProfile: "Wyświetl swój profil",       // MAYBE  I removed "/Edytuj"
-    ViewGroups: "View groups",  // MISSING
+    ViewGroups: "Pokaż grupy",
     LogOut: "Wyloguj",
     UnhideHelp: "Włącz wyświetlanie wskazówek",
   },
@@ -745,8 +745,8 @@ var t_pl_PL: TalkyardTranslations = t = {
 
   // Select users dialog
   sud: {
-    SelectUsers: "Select users",  // MISSING
-    AddUsers: "Add users",  // MISSING
+    SelectUsers: "Zaznacz użytkowników",
+    AddUsers: "Dodaj użytkowników",
   },
 
 
@@ -772,11 +772,11 @@ var t_pl_PL: TalkyardTranslations = t = {
 
     Preferences: "Ustawienia",
     Invites: "Zaproszenia",
-    DraftsEtc: "Drafts etc",  // MISSING
+    DraftsEtc: "Szkice etc",
     About: "O mnie",
     Privacy: "Prywatność",
     Account: "Konto",
-    Interface: "Interface",  // MISSING
+    Interface: "Interfejs",
 
     // ----- Overview stats
 
@@ -822,15 +822,15 @@ var t_pl_PL: TalkyardTranslations = t = {
     NoNotfs: "Brak powiadomień",
     NotfsToYouC: "Powiadomienia dla Ciebie:",
     NotfsToOtherC: (name: string) => `Powiadomienia dla ${name}:`,
-    DefNotfsSiteWide: "Default notifications, site wide",  // MISSING
+    DefNotfsSiteWide: "Domyślne powiadomienia, dla całego forum",
     // The "for" in:  "Default notifications, site wide, for (someone's name)".
-    forWho: "for",  // MISSING
+    forWho: "dla",
 
     // ----- Drafts Etc page
 
-    NoDrafts: "No drafts",  // MISSING
-    YourDraftsC: "Your drafts:",  // MISSING
-    DraftsByC: (name: string) => `Drafts by ${name}:`,  // MISSING
+    NoDrafts: "Brak szkiców",
+    YourDraftsC: "Twoje szkice:",
+    DraftsByC: (name: string) => `Szkice napisane przez ${name}:`,
 
     // ----- Invites page
 
@@ -839,36 +839,36 @@ var t_pl_PL: TalkyardTranslations = t = {
     NoInvites: "Jeszcze nikogo nie zaprosiłeś.",
 
     InvitedEmail: "Zaproszony adres email",
-    WhoAccepted: "Użytkownink, który zaakceptował zaproszenie",
+    WhoAccepted: "Użytkownik, który zaakceptował zaproszenie",
     InvAccepted: "Zaproszenie zaakceptowane",
     InvSent: "Zaproszenie wysłane",
-    JoinedAlready: "Joined already",  // MISSING
+    JoinedAlready: "Już połączone",
 
     SendAnInv: "Wyślij zaproszenie",
     SendInv: "Wyślij zaproszenie",
     SendInvExpl:
-        "Wyślemy Twojemu przyjacielowi krótkiego email'a z linkiem " +
+        "Wyślemy Twojemu przyjacielowi krótkiego email'a z odnośnikiem " +
         "umożliwiającym natychmiastowe dołączenie, bez logowania. " +
         "Twój przyjaciel zostanie podstawowym członkiem, nie moderatorem, ani adminem.",
     //EnterEmail: "Wpisz adres email",
     InvDone: "Zrobione. Zaraz wyślę wiadomość.",
-    // MISSING x 9:
-    NoOneToInv: "No one to invite.",
-    InvNotfLater: "I'll notify you later, when I've invited them.",
-    AlreadyInvSendAgainQ: "These have been invited already — maybe you'd like to invite them again?",
-    InvErr_1: "These resulted in ",
-    InvErr_2: "errors",
+
+    NoOneToInv: "Nie ma kogo zaprosić.",
+    InvNotfLater: "Powiadomię Ciebie później, kiedy ich zaproszę.",
+    AlreadyInvSendAgainQ: "Ci zostali już zaproszeni — może chcesz ich zaprosić ponownie?",
+    InvErr_1: "Te zakończyły się ",
+    InvErr_2: "błędami",
     InvErr_3: ":",
-    TheseJoinedAlrdyC: "These have joined already, so I didn't invite them:",
-    ResendInvsQ: "Re-send invitations to these people? They have been invited already.",
-    InvAgain: "Invite again",
+    TheseJoinedAlrdyC: "Te są juz użytkownikami, więc ich nie zaprosiłem:",
+    ResendInvsQ: "Wysłać ponowne zaproszenia do tych ludzi? Oni byli już zapraszani.",
+    InvAgain: "Zaproś ponownie",
 
     // ----- Preferences, About
 
     AboutYou: "O Tobie",
     WebLink: "Adres Twojej strony internetowej.",
 
-    NotShownCannotChange: "Not shown publicly. Cannot be changed.",
+    NotShownCannotChange: "Nie pokywane publicznie. Nie może być zmieniony.",
 
     // The full name or alias:
     NameOpt: "Imię (opcjonalne)",
@@ -882,8 +882,8 @@ var t_pl_PL: TalkyardTranslations = t = {
     ChangeUsername_2: "Zmienianie jej zbyt często może zbić innych z tropu — " +
         "nie będą wiedzieli kogo @wskazać mając na myśli Ciebie.",
 
-    NotfAboutAll: "Powiadamiaj mnie o każdym nowym poście (dopóki nie wyłączysz powiadomień dla wątku lub kategorii)",
-    NotfAboutNewTopics: "Be notified about new topics (unless you mute the category)",  // MISSING
+    NotfAboutAll: "Powiadamiaj mnie o każdym nowym poście i zmianach w poście (dopóki nie wyłączysz powiadomień dla wątku lub kategorii)",
+    NotfAboutNewTopics: "Powiadamiaj mnie o każdym nowym poście (dopóki nie wyłączysz powiadomień dla kategorii)",
 
     ActivitySummaryEmails: "Email'e z podsumowaniem aktywności",
 
@@ -927,12 +927,12 @@ var t_pl_PL: TalkyardTranslations = t = {
         "('Domyślny' oznacza, że możesz zalogować się za pomocą tego adresu i że na ten adres wysyłamy powiadomienia. " +
         "'Zweryfikowany' oznacza, że kliknąłeś w wysłany link weryfikacyjny.)",
 
-    // Password:     // MISSING x 4
-    ChangePwdQ: "Change password?",
-    CreatePwdQ: "Create password?",
-    WillGetPwdRstEml: "You'll get a reset password email.",
+    // Password:
+    ChangePwdQ: "Zmień hasło?",
+    CreatePwdQ: "Utwórz hasło?",
+    WillGetPwdRstEml: "Otrzymasz mail z ponownym ustawieniem hasła.",
     // This is the "None" in:  "Password: None"
-    PwdNone: "None",
+    PwdNone: "Żadne",
 
     // Logins:
     LoginMethods: "Metody logowania",
@@ -962,18 +962,18 @@ var t_pl_PL: TalkyardTranslations = t = {
   },
 
 
-  // Group profile page     MISSING
+  // Group profile page
   gpp: {
-    GroupMembers: "Group members",
-    NoMembers: "No members.",
-    MayNotListMembers: "May not list members.",
-    AddMembers: "Add Members",
-    BuiltInCannotModify: "This is a built-in group; it cannot be modified.",
-    NumMembers: (num: number) => `${num} members`,
-    YouAreMember: "You're a member.",
-    CustomGroupsC: "Custom groups:",
-    BuiltInGroupsC: "Built-in groups:",
-    DeleteGroup: "Delete this group",
+    GroupMembers: "Członkowie grup",
+    NoMembers: "Brak członków.",
+    MayNotListMembers: "Nie można wyświetlić członków.",
+    AddMembers: "Dodaj członków",
+    BuiltInCannotModify: "To jest grupa wbudowana; nie może być zmodyfikowana.",
+    NumMembers: (num: number) => `${num} członków`,
+    YouAreMember: "Jesteś członkiem.",
+    CustomGroupsC: "Opcjonalne grupy:",
+    BuiltInGroupsC: "Wbudowane grupy:",
+    DeleteGroup: "Usuń tę grupę",
   },
 
 
@@ -984,8 +984,9 @@ var t_pl_PL: TalkyardTranslations = t = {
     CreateAccount: "Utwórz konto",
     EmailC: "Email:",
     keptPriv: "nie będzie publicznie dostępny",
-    forNotfsKeptPriv: "otrzymywać powiadomienia o odpowiedziach, nie będzie publicznie dostępny",  // MISSING, used Google Translate
-    EmailVerifBy_1: "Twwój email został zweryfikowany przez ",
+    forNotfsKeptPriv: "otrzymywać powiadomienia o odpowiedziach, nie będzie publicznie dostępny",
+    EmailVerifBy_1: "Tw
+    ój email został zweryfikowany przez ",
     EmailVerifBy_2: ".",
     UsernameC: "Nazwa użytkownika:",
     FullNameC: "Pełne imię:",
@@ -1056,7 +1057,7 @@ var t_pl_PL: TalkyardTranslations = t = {
     // stopped impersonating the first user. (Otherwise, everything gets too complicated.)
     IsImpersonating: "Jesteś zalogowany jako użytkownik nie mający dostępu do wszystkich części " +
         "tego serwisu.",
-        
+
     IfYouThinkExistsThen: "Jeśli myślisz, że taka strona istnieje, zaloguj się jak użytkownik, który może mieć do niej dostęp. ",
     LoggedInAlready: "(Już jesteś zalogowany, może użyłeś złego konta?) ",
     ElseGoToHome_1: "W przeciwnym razie możesz ",
@@ -1125,7 +1126,7 @@ var t_pl_PL: TalkyardTranslations = t = {
   // Editor
 
   e: {
-    SimilarTopicsC: "Similar topics:",  // MISSING
+    SimilarTopicsC: "Podobne wątki:",
 
     //WritingSomethingWarning: "Pisałeś coś?",
     UploadMaxOneFile: "Przepraszamy ale obecnie możesz przesłać tylko jeden plik na raz",
@@ -1169,7 +1170,7 @@ var t_pl_PL: TalkyardTranslations = t = {
     ReplyTo: "Owpowiedz na ",
     ReplyTo_theOrigPost: "post rozpoczynający dyskusję",
     ReplyTo_post: "post ",
-    AddCommentC: "Add a comment:",   // MISSING
+    AddCommentC: "Dodaj komentarz:",
 
     PleaseSelectPosts: "Wybierz jeden lub więcej postów, na które chcesz odpowiedzieć.",
 
@@ -1223,22 +1224,22 @@ var t_pl_PL: TalkyardTranslations = t = {
     PreviewInfo: "Tutaj możesz zobaczyć, jak będzie wyglądać Twój post.",
     CannotType: "Nie możesz tutaj pisać.",
 
-    LoadingDraftDots: "Loading any draft...",  // MISSING
-    DraftUnchanged: "Unchanged.",     // MISSING
-    CannotSaveDraftC: "Cannot save draft:",     // MISSING
-    DraftSavedBrwsr: "Draft saved, in browser.",   // MISSING
-    DraftSaved: (nr: string | number) => `Draft ${nr} saved.`,     // MISSING
-    DraftDeleted: (nr: string | number) => `Draft ${nr} deleted.`,     // MISSING
-    WillSaveDraft: (nr: string | number) => `Will save draft ${nr} ...`,     // MISSING
-    SavingDraft: (nr: string | number) => `Saving draft ${nr} ...`,     // MISSING
-    DeletingDraft: (nr: string | number) => `Deleting draft ${nr} ...`,     // MISSING
+    LoadingDraftDots: "Ładuję jakiś szkic...",
+    DraftUnchanged: "Nie zmieniony.",
+    CannotSaveDraftC: "Nie mogę zapamiętać szkicu:",
+    DraftSavedBrwsr: "Szkic zachowany, na liście.",
+    DraftSaved: (nr: string | number) => `Szkic ${nr} zachowany.`,
+    DraftDeleted: (nr: string | number) => `Szkic ${nr} usunięty.`,
+    WillSaveDraft: (nr: string | number) => `Będzie zapamiętany szkic ${nr} ...`,
+    SavingDraft: (nr: string | number) => `Zachowuję szkic ${nr} ...`,
+    DeletingDraft: (nr: string | number) => `Usuwam szkic ${nr} ...`,
   },
 
 
   // Select category dropdown
 
   scd: {
-    SelCat: "Select category",  // MISSING
+    SelCat: "Wybierz kategorię",
   },
 
   // Page type dropdown
@@ -1276,20 +1277,20 @@ var t_pl_PL: TalkyardTranslations = t = {
   },
 
 
-  // No internet    // MISSING x 3
+  // No internet
 
   ni: {
-    NoInet: "No internet connection",
-    PlzRefr: "Refresh page to see any latest changes. (There was a disconnection)",
-    RefrNow: "Refresh now",
+    NoInet: "Brak dostępu do internetu",
+    PlzRefr: "Odśwież stronę aby zoabzcyć zmiany. (Było chwilowe rozłączenie)",
+    RefrNow: "Odświeżam teraz",
   },
 
 
-  // MISSING:
-  PostDeleted: (postNr: number) => `That post, nr ${postNr}, has been deleted.`,
-  NoSuchPost: (postNr: number) => `There's no post nr ${postNr} on this page.`,
-  NoPageHere: "This page has been deleted, or it never existed, or you may not access it.",
-  GoBackToLastPage: "Go back to last page",
+  //
+  PostDeleted: (postNr: number) => `Ten wątek, nr ${postNr}, został usunięty.`,
+  NoSuchPost: (postNr: number) => `Nie ma wątku nr ${postNr} na tej stronie.`,
+  NoPageHere: "Ta strona została usunięta, lub nigdy nie istniała lub nie masz praw aby ją obejrzeć.",
+  GoBackToLastPage: "Wróć do poprzedniej strony",
 
 };
 
