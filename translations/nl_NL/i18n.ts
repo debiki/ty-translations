@@ -14,7 +14,7 @@
 
 var t: TalkyardTranslations;
 
-var t_nl_NL: TalkyardTranslations = t = {
+var t_nl_NL: TalkyardTranslations = t = {  // Dutch
 
   // A single or a few words, sorted alphabetically, to reuse everywhere.
 
@@ -632,7 +632,7 @@ var t_nl_NL: TalkyardTranslations = t = {
   // Post actions
 
   pa: {
-    CloseTopic: "Sluit onderwerp",  // MISSING
+    CloseTopic: "Sluit onderwerp",
     CloseOwnQuestionTooltip: "Sluit deze vraag als u geen antwoord meer nodig hebt.",
     CloseOthersQuestionTooltip: "Sluit deze vraag als het geen antwoord nodig heeft, bijv. als " +
         "het buiten het onderwerp valt of reeds beantwoord werd in een ander onderwerp.",
@@ -641,8 +641,8 @@ var t_nl_NL: TalkyardTranslations = t = {
 
     AcceptBtnExpl: "Aanvaard dit als een antwoord op de vraag of het probleem",
     SolutionQ: "Oplossing?",
-    ClickUnaccept: "Klik om aanvaarden van het antwoord ongedaan te maken.",
-    PostAccepted: "Deze post werd aanvaard als antwoord.",
+    ClickUnaccept: "Klik om aanvaarden van het antwoord ongedaan te maken",
+    PostAccepted: "Deze post werd aanvaard als antwoord",
 
     NumLikes: (num: number) => num === 1 ? "1 Vind-ik-leuk" : num + " Vind-ik-leuks",
     NumDisagree: (num: number) => num + " Oneens",
@@ -1111,7 +1111,7 @@ var t_nl_NL: TalkyardTranslations = t = {
 
   fd: {
     PleaseTellConcerned: "Vertel ons waarover u zich zorgen maakt.",
-    ThanksHaveReported: "Bedankt. U heeft het gemeld. De forummedewerkers zullen een kijkje nemen. ",
+    ThanksHaveReported: "Bedankt. U heeft het gemeld. De forummedewerkers zullen een kijkje nemen.",
     ReportComment: "Reactie rapporteren",
     // Different reasons one can choose among when reporting a comment:
     OptPersonalData: "Dit bericht bevat persoonlijke gegevens, bijvoorbeeld iemands echte naam.",
@@ -1124,8 +1124,9 @@ var t_nl_NL: TalkyardTranslations = t = {
   // Help message dialog
   help: {
     YouCanShowAgain_1: "U kunt hulpberichten opnieuw laten zien, als u bent ingelogd, door " +
-        "te klikken op uw naam en dan",
-    YouCanShowAgain_2: "Help berichten verbergen",
+        "te klikken op uw naam en dan ",
+    YouCanShowAgain_2: "Help berichten verbergen",  // MISSING?  "Unhide help messages",
+                        // but "berichten" is more a discussion topic?  not "help tips"
   },
 
 
