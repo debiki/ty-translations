@@ -22,6 +22,7 @@ var t_pl_PL: TalkyardTranslations = t = {
   Activity: "Aktywność",
   Add: "Dodaj",
   AddingDots: "Dodawanie ...",
+  AddComment: "Dodaj komentarz",
   Admin: "Admin",
   AdvSearch: "Wyszukiwanie zaawansowane",
   Away: "Zaraz wracam",
@@ -40,6 +41,7 @@ var t_pl_PL: TalkyardTranslations = t = {
   CheckYourEmail: "Sprawdź skrzynkę mailową",
   Close: "Zamknij",
   closed: "zamknięty",
+  comments: "komentarze",   // as in:  "123 comments"    MAYBE
   Created: "Utworzony",
   Delete: "Usuń",
   Deleted: "Usunięte",
@@ -49,6 +51,7 @@ var t_pl_PL: TalkyardTranslations = t = {
   done: "zrobione",
   EditV: "Edytuj",
   Editing: "Edytowane",
+  EmailC: "Email: ",
   EmailAddress: "Adres email",
   EmailAddresses: "Adresy mailowe",
   EmailSentD: "Wysłano mail.",
@@ -516,6 +519,7 @@ var t_pl_PL: TalkyardTranslations = t = {
     PostDeld: "Post usunięty",
     DiscDeld: "Dyskusja usunięta",
     PageDeld: "Strona usunięta",
+    PagePendAppr: "Strona oczekuje na zatwierdzenie",  // MAYBE
     TitlePendAppr: "Tytuł oczekuje na zatwierdzenie",
     TextPendingApproval: "Tekst oczekuje na zatwierdzenie",
 
@@ -561,6 +565,7 @@ var t_pl_PL: TalkyardTranslations = t = {
     ManyDisagree: "Wielu się z tym nie zgadza:",
     SomeDisagree: "Niektórzy nie zgadzają się z tym:",
 
+    PendAppr: "W oczekiwaniu na zatwierdzenie",   // MAYBE
     CmtPendAppr: "Komentarz oczekuje na zatwierdzenie ",
     CmtBelowPendAppr: (isYour) => (isYour ? "Twój" : "Poniższy") + " komentarz oczekuje na zatwierdzenie.",
 
@@ -625,6 +630,7 @@ var t_pl_PL: TalkyardTranslations = t = {
   // Post actions
 
   pa: {
+    CloseTopic: "Zamknij temat",  // MAYBE
     CloseOwnQuestionTooltip: "Zamknij ten wątek, jeśli nie potrzebujesz już odpowiedzi.",
     CloseOthersQuestionTooltip: "Zamknij ten wątek, jeśli już nie jest potrzebna odpowiedź, np. gdy " +
         "odpowiedź znajduje się w innym temacie.",
@@ -985,8 +991,7 @@ var t_pl_PL: TalkyardTranslations = t = {
     EmailC: "Email:",
     keptPriv: "nie będzie publicznie dostępny",
     forNotfsKeptPriv: "otrzymywać powiadomienia o odpowiedziach, nie będzie publicznie dostępny",
-    EmailVerifBy_1: "Tw
-    ój email został zweryfikowany przez ",
+    EmailVerifBy_1: "Twój email został zweryfikowany przez ",
     EmailVerifBy_2: ".",
     UsernameC: "Nazwa użytkownika:",
     FullNameC: "Pełne imię:",
@@ -1178,6 +1183,7 @@ var t_pl_PL: TalkyardTranslations = t = {
     edits: "zmiany",
 
     PostReply: "Odpowiedz na post",
+    PostComment: "Wyślij komentarz",  // MAYBE
 
     Post: "Post",
     comment: "komentarz",
