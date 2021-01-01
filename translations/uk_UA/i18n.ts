@@ -524,7 +524,7 @@ var t_uk_UA: TalkyardTranslations = t = {
     TitlePendAppr: "Заголовок очікує на схвалення",
     TextPendingApproval: "Текст очікує на схвалення",
 
-    TooltipQuestClosedNoAnsw: "Це питання було закрито без жодної прийнятої відповіді. ",
+    TooltipQuestClosedNoAnsw: "Це питання було закрито без жодної прийнятої відповіді.",
     TooltipTopicClosed: "Ця тема закрита.",
 
     TooltipQuestSolved: "Це вирішене питання",
@@ -634,7 +634,7 @@ var t_uk_UA: TalkyardTranslations = t = {
     CloseTopic: "Закрити тему",  // MISSING
     CloseOwnQuestionTooltip: "Закрийте це запитання, якщо вам більше не потрібна відповідь.",
     CloseOthersQuestionTooltip: "Закрийте це питання, якщо на нього не потрібна відповідь, наприклад, якщо " +
-        "воно не відповідає темі або на нього вже відповіли в іншій темі. ",
+        "воно не відповідає темі або на нього вже відповіли в іншій темі.",
     CloseToDoTooltip: "Закрийте це завдання, якщо його не потрібно здійснювати або розв'язувати.",
     CloseTopicTooltip: "Закрийте цю тему, якщо вона не потребує подальшого розгляду.",
 
@@ -723,8 +723,9 @@ var t_uk_UA: TalkyardTranslations = t = {
     // If in your language, "Back" doesn't start with 'B', then instead
     // set Back_1 to '' (empty text), and Back_2 to:  "Back (B)" — and "Back" (but not "B")
     // translated to your language.
-    Back_1: "B",
-    Back_2: "ack, Повернутися назад (Швидка клавіша: B або Backspace)",
+    Back_1: "",
+    Back_2: "Назад (B)", // MAYBE,
+    // but not, too much text: "B" "ack, Повернутися назад (Швидка клавіша: B або Backspace)",
     BackExpl: "Прокрутити назад до вашого попереднього місця на цій сторінці",
 
     // These are useful on mobile — then, no keybard with Home (= scroll to top) and End buttons.
@@ -1137,7 +1138,7 @@ var t_uk_UA: TalkyardTranslations = t = {
     UploadMaxOneFile: "Вибачте, але наразі ви можете завантажувати лише один файл за раз",
     PleaseFinishPost: "Будь ласка, спершу закінчіть писати свій допис",
     PleaseFinishChatMsg: "Будь ласка, спершу допишіть своє повідомлення в балачці",
-    PleaseFinishMsg: "Будь ласка, спершу допишіть своє повідомлення ",
+    PleaseFinishMsg: "Будь ласка, спершу допишіть своє повідомлення",
     PleaseSaveEdits: "Будь ласка, спершу збережіть свої поточні виправлення",
     PleaseSaveOrCancel: "Будь ласка, спершу або збережіть, або скасуйте нову тему",
     CanContinueEditing: "Ви можете продовжувати редагувати свій текст, якщо ви знову відкриєте редактор.",
