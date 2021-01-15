@@ -995,11 +995,11 @@ var t_es_CL: TalkyardTranslations = t = {
     FullNameC: "Nombre completo:",
     optName: "opcional",
 
-    OrCreateAcct_1: "O ",
-    OrCreateAcct_2: "crear una cuenta",
-    OrCreateAcct_3: " con ",
-    OrCreateAcct_4: "@NombreDeUsuario",
-    OrCreateAcct_5: " y contraseña",
+    //OrCreateAcct_1: "O ",
+    //OrCreateAcct_2: "crear una cuenta",
+    //OrCreateAcct_3: " con ",
+    //OrCreateAcct_4: "@NombreDeUsuario",
+    //OrCreateAcct_5: " y contraseña",
 
     DoneLoggedIn: "Cuenta creada. Has ingresado.",  // COULD say if verif email sent too?
     AlmostDone:
@@ -1078,15 +1078,20 @@ var t_es_CL: TalkyardTranslations = t = {
     LogInToComment: "Ingresa para escribir un comentario",
     LogInToCreateTopic: "Ingresar para iniciar una conversación",
 
-    AlreadyHaveAcctQ: "¿Tienes una cuenta? ",
-    LogInInstead_1: "",
-    LogInInstead_2: "Ingresa",   // "Log in" (this is a button)
-    LogInInstead_3: " ", // "instead"
+    //AlreadyHaveAcctQ: "¿Tienes una cuenta? ",
+    OrLogIn_1: "",            // "Or "
+    OrLogIn_2: "Ingresa",     // "Log in" (this is a button)
+    OrLogIn_3: "",            // " instead"
 
-    NewUserQ: "¿Nuevo usuario? ",
+    //NewUserQ: "¿Nuevo usuario? ",
     SignUpInstead_1: "",
     SignUpInstead_2: "Regístrate",
     SignUpInstead_3: "",
+
+    // MAYBE x3:
+    OrTypeName_1: ", o simplemente ",
+    OrTypeName_2: "escribe tu nombre",   // is a button
+    OrTypeName_3: "",
 
     OrCreateAcctHere: "O crea una cuenta:",
     OrTypeName: "O escribe tu nombre:",

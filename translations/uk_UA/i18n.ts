@@ -998,11 +998,11 @@ var t_uk_UA: TalkyardTranslations = t = {
     FullNameC: "Повне ім'я:",
     optName: "необов’язково",
 
-    OrCreateAcct_1: "Або ",
-    OrCreateAcct_2: "створити обліковий запис",
-    OrCreateAcct_3: " з ",
-    OrCreateAcct_4: "@логіном",
-    OrCreateAcct_5: " та паролем",
+    //OrCreateAcct_1: "Або ",
+    //OrCreateAcct_2: "створити обліковий запис",
+    //OrCreateAcct_3: " з ",
+    //OrCreateAcct_4: "@логіном",
+    //OrCreateAcct_5: " та паролем",
 
     DoneLoggedIn: "Обліковий запис створено. Ви ввійшли в систему.",  // COULD say if verif email sent too?
     AlmostDone:
@@ -1081,15 +1081,20 @@ var t_uk_UA: TalkyardTranslations = t = {
     LogInToComment: "Увійдіть, щоб написати коментар",
     LogInToCreateTopic: "Увійдіть, щоб створити тему",
 
-    AlreadyHaveAcctQ: "У вас є обліковий запис? ",  // MISSING changed "Already have...?" to "You have...?"
-    LogInInstead_1: "",
-    LogInInstead_2: "Увійти",   // "Log in" (this is a button)
-    LogInInstead_3: " замість цього", // "instead"
+    //AlreadyHaveAcctQ: "У вас є обліковий запис? ",
+    OrLogIn_1: "",
+    OrLogIn_2: "Увійти",   // "Log in" (this is a button)
+    OrLogIn_3: " замість цього", // "instead"
 
-    NewUserQ: "Новий користувач? ",
+    //NewUserQ: "Новий користувач? ",
     SignUpInstead_1: "",
     SignUpInstead_2: "Створити обліковий запис", // (this is a button)
     SignUpInstead_3: " замість цього",
+
+    // MAYBE x3:
+    OrTypeName_1: ", Або просто ",
+    OrTypeName_2: "введіть своє ім'я",   // is a button
+    OrTypeName_3: "",
 
     OrCreateAcctHere: "Або створіть обліковий запис:",
     OrTypeName: "Або введіть своє ім'я:",

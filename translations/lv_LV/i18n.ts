@@ -995,11 +995,11 @@ var t_lv_LV: TalkyardTranslations = t = {
     FullNameC: "Pilns vārds:",
     optName: "pēc izvēles",
 
-    OrCreateAcct_1: "Vai ",
-    OrCreateAcct_2: "izveidot kontu",
-    OrCreateAcct_3: " ar ",
-    OrCreateAcct_4: "@lietotājvārds",
-    OrCreateAcct_5: " & parole",
+    //OrCreateAcct_1: "Vai ",
+    //OrCreateAcct_2: "izveidot kontu",
+    //OrCreateAcct_3: " ar ",
+    //OrCreateAcct_4: "@lietotājvārds",
+    //OrCreateAcct_5: " & parole",
 
     DoneLoggedIn: "Konts izveidots. Tu esi ienācis.",  // COULD say if verif email sent too?
     AlmostDone:
@@ -1078,15 +1078,20 @@ var t_lv_LV: TalkyardTranslations = t = {
     LogInToComment: "Ienāc, lai uzrakstītu komentāru",
     LogInToCreateTopic: "Ienāc, lai izveidotu tēmu",
 
-    AlreadyHaveAcctQ: "Tev jau ir konts? ",  // MISSING changed "Already have...?" to "You have...?"
-    LogInInstead_1: "",
-    LogInInstead_2: "Ienākt",   // "Log in" (this is a button)
-    LogInInstead_3: "", // "instead"
+    //AlreadyHaveAcctQ: "Tev jau ir konts? ",  // MISSING changed "Already have...?" to "You have...?"
+    OrLogIn_1: "",         // "Or "
+    OrLogIn_2: "Ienākt",   // "Log in" (this is a button)
+    OrLogIn_3: "",         // " instead"
 
-    NewUserQ: "Jauns lietotājs? ",
+    //NewUserQ: "Jauns lietotājs? ",
     SignUpInstead_1: "",
     SignUpInstead_2: "Reģistrēties",
     SignUpInstead_3: "",
+
+    // MAYBE x3: viaa Google Translate
+    OrTypeName_1: ", vai vienkārši ",
+    OrTypeName_2: "ierakstiet savu vārdu",  // is a button
+    OrTypeName_3: "",
 
     OrCreateAcctHere: "Vai izveido kontu:",
     OrTypeName: "Vai ievadi savu vārdu:",

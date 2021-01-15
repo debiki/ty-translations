@@ -999,12 +999,6 @@ var t_he_IL: TalkyardTranslations = t = {
     FullNameC: "Full name:",
     optName: "optional",
 
-    OrCreateAcct_1: "Or ",
-    OrCreateAcct_2: "create an account",
-    OrCreateAcct_3: " with ",
-    OrCreateAcct_4: "@username",
-    OrCreateAcct_5: " & password",
-
     DoneLoggedIn: "Account created. You have been logged in.",  // COULD say if verif email sent too?
     AlmostDone:
         "Almost done! You just need to confirm your email address. We have " +
@@ -1082,15 +1076,17 @@ var t_he_IL: TalkyardTranslations = t = {
     LogInToComment: "Log in to write a comment",
     LogInToCreateTopic: "Log in to create topic",
 
-    AlreadyHaveAcctQ: "You have an account? ",  // MISSING changed "Already have...?" to "You have...?"
-    LogInInstead_1: "",
-    LogInInstead_2: "Log in",   // "Log in" (this is a button)
-    LogInInstead_3: " instead", // "instead"
+    OrLogIn_1: "Or ",         // "Or "
+    OrLogIn_2: "Log in",      // "Log in" (this is a button)
+    OrLogIn_3: " instead",    // " instead"
 
-    NewUserQ: "New user? ",
     SignUpInstead_1: "",
     SignUpInstead_2: "Sign up",
     SignUpInstead_3: " instead",
+
+    OrTypeName_1: ", or just ",
+    OrTypeName_2: "type a name",   // is a button
+    OrTypeName_3: "",
 
     OrCreateAcctHere: "Or create account:",
     OrTypeName: "Or type your name:",

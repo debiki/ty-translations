@@ -998,11 +998,11 @@ var t_nl_NL: TalkyardTranslations = t = {  // Dutch
     FullNameC: "Naam:",
     optName: "optioneel",
 
-    OrCreateAcct_1: "of ",
-    OrCreateAcct_2: "Maak een account",
-    OrCreateAcct_3: " met ",
-    OrCreateAcct_4: "@gebruikersnaam",
-    OrCreateAcct_5: " & wachtwoord",
+    //OrCreateAcct_1: "of ",
+    //OrCreateAcct_2: "Maak een account",
+    //OrCreateAcct_3: " met ",
+    //OrCreateAcct_4: "@gebruikersnaam",
+    //OrCreateAcct_5: " & wachtwoord",
 
     DoneLoggedIn: "Account aangemaakt. U werd ingelogd.",  // COULD say if verif email sent too?
     AlmostDone:
@@ -1081,15 +1081,20 @@ var t_nl_NL: TalkyardTranslations = t = {  // Dutch
     LogInToComment: "Log in om te reageren",
     LogInToCreateTopic: "Log in om een onderwerp te aan te maken",
 
-    AlreadyHaveAcctQ: "Hebt u een account? ",  // MISSING changed "Already have...?" to "You have...?"
-    LogInInstead_1: "",
-    LogInInstead_2: "Log in",   // "Log in" (this is a button)
-    LogInInstead_3: " anders", // "instead"
+    //AlreadyHaveAcctQ: "Hebt u een account? ",  // MISSING changed "Already have...?" to "You have...?"
+    OrLogIn_1: "",
+    OrLogIn_2: "Log in",   // "Log in" (this is a button)
+    OrLogIn_3: " anders", // "instead"
 
-    NewUserQ: "Nieuwe gebruiker? ",
+    //NewUserQ: "Nieuwe gebruiker? ",
     SignUpInstead_1: "",
     SignUpInstead_2: "Account aanmaken", // (this is a button)
     SignUpInstead_3: " anders",
+
+    // MAYBE x3: Used Google Translate:
+    OrTypeName_1: ", of typ gewoon ",
+    OrTypeName_2: "je naam",   // is a button
+    OrTypeName_3: "",
 
     OrCreateAcctHere: "Of account aanmaken:",
     OrTypeName: "Of typ uw naam:",

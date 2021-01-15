@@ -997,11 +997,11 @@ var t_pl_PL: TalkyardTranslations = t = {
     FullNameC: "Pełne imię:",
     optName: "opcjonalny",
 
-    OrCreateAcct_1: "Albo ",
-    OrCreateAcct_2: "utwórz konto",
-    OrCreateAcct_3: " z ",
-    OrCreateAcct_4: "@nazwą",
-    OrCreateAcct_5: " i hasłem",
+    //OrCreateAcct_1: "Albo ",
+    //OrCreateAcct_2: "utwórz konto",
+    //OrCreateAcct_3: " z ",
+    //OrCreateAcct_4: "@nazwą",
+    //OrCreateAcct_5: " i hasłem",
 
     DoneLoggedIn: "Konto utworzone. Zostałeś zalogowany.",  // COULD say if verif email sent too?
     AlmostDone:
@@ -1080,15 +1080,20 @@ var t_pl_PL: TalkyardTranslations = t = {
     LogInToComment: "Zaloguj się, aby napisać komentarz",
     LogInToCreateTopic: "Zaloguj się, aby utworzyć nowy wątek",
 
-    AlreadyHaveAcctQ: "Posiadasz już konto? ",
-    LogInInstead_1: "",
-    LogInInstead_2: "Zaloguj się",   // "Log in" (this is a button)
-    LogInInstead_3: "", // "instead"
+    //AlreadyHaveAcctQ: "Posiadasz już konto? ",
+    OrLogIn_1: "",
+    OrLogIn_2: "Zaloguj się",   // "Log in" (this is a button)
+    OrLogIn_3: "", // "instead"
 
-    NewUserQ: "Nie posiadasz jeszcze konta? ",
+    //NewUserQ: "Nie posiadasz jeszcze konta? ",
     SignUpInstead_1: "",
     SignUpInstead_2: "Zarejestruj się",
     SignUpInstead_3: "",
+
+    // MAYBE x3: Google Translate + looked at OrTypeName.
+    OrTypeName_1: ", lub po prostu ",
+    OrTypeName_2: "wpisz swoje imię",   // is a button
+    OrTypeName_3: "",
 
     OrCreateAcctHere: "Lub utwórz nowe konto:",
     OrTypeName: "Lub wpisz swoje imię:",
