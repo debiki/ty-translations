@@ -294,7 +294,7 @@ var t_de_DE: TalkyardTranslations = t = {
     PostIdea: "Eine Idee veröffentlichen",
     AskQuestion: "Eine Frage stellen",
     ReportProblem: "Ein Problem berichten",
-    CreateMindMap: "Mind Map erstellen ",
+    CreateMindMap: "Mind Map erstellen",
     CreatePage: "Seite erstellen",
 
   },
@@ -1083,7 +1083,7 @@ var t_de_DE: TalkyardTranslations = t = {
     //AlreadyHaveAcctQ: "You have an account? ",  // MISSING changed "Already have...?" to "You have...?"
     OrLogIn_1: "Oder ",         // "Or "
     OrLogIn_2: "Melde Dich an",      // "Log in" (this is a button)
-    OrLogIn_3: " ",    // " instead"
+    OrLogIn_3: "",    // " instead"
 
     //NewUserQ: "New user? ",
     SignUpInstead_1: "Oder ",
