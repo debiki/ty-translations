@@ -1,0 +1,32 @@
+@(site: com.debiki.core.Tenant, userName: String)
+
+@import controllers.CreateEmbeddedSiteController
+@import debiki.HtmlUtils.link
+
+@embeddingSiteUrl = @{ site.embeddingSiteUrl.get }
+@adminUrl = @{ CreateEmbeddedSiteController.adminUrlForEmbeddedSite(site.id) }
+
+@embeddedCommentsInstructionsUrl = @{
+  val embeddedSiteOrigin = debiki.Globals.siteByIdOrigin(site.id)
+  embeddedSiteOrigin + routes.CreateEmbeddedSiteController.embeddingSiteInstructionsPage()
+}
+
+<div>
+<p>Hallo @userName,</p>
+
+<p>der Kommentarbereich wurde für Deine Webseite unter <tt>@embeddingSiteUrl</tt> eingerichtet.</p>
+
+<p>Du findest eine Anleitung für die ersten Schritte hier:</p>
+
+<a href="@embeddedCommentsInstructionsUrl">Anleitung</a>
+
+<p>Du kannst Dich hier anmelden und den Kommentarbereich administrieren:</p>
+
+<p>@link(adminUrl)</p>
+
+<p>Mit freundlichen Grüßen,
+  Debiki
+</p>
+</div>
+
+*@

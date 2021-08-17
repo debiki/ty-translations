@@ -1,0 +1,17 @@
+@(emailAddress: String, siteAddress: String, globals: debiki.Globals)
+
+@origin = @{ globals.originOf(siteAddress) }
+
+<div>
+<p>Hallo,</p>
+
+<p>
+Du hast versucht, einen neuen Account bei <a href="@origin">@siteAddress</a> mit der eMail-Adresse
+<tt>@emailAddress</tt> anzulegen. Der Account gehört Dir allerdings bereits.@* [2WABJDD4_] *@
+Wenn Du Dein Passwort nicht mehr weißt, kannst Du es
+<a href="@origin@controllers.routes.ResetPasswordController.showResetPasswordPage">
+  hier zurücksetzen.</a>
+</p>
+
+<p>Mit freundlichen Grüßen</p>
+</div>
