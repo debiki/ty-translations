@@ -253,7 +253,8 @@ var t_de_DE: TalkyardTranslations = t = {
 
     from: "von",  // MISSING used like so:  "From <Category Name>" or "From All Categories"
     in: "in",      // MISSING used like so:  "in <Category Name>" or "in All Categories"
-    AllCats: "Allen Kategorien",
+    // Update: There's no 'in' before any longer, so, now, "Alle" not "Allen".
+    AllCats: "Alle Kategorien",
 
     // Topic sort order
 
