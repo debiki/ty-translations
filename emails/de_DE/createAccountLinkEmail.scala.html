@@ -1,0 +1,23 @@
+@(siteAddress: String, username: String, safeVerificationUrl: String, expirationTimeInHours: Int, globals: debiki.Globals)
+
+@origin = @{
+  globals.originOf(siteAddress)
+}
+
+@* For links you don't want people to click, unless they know what they're doing. *@
+@grayBoringLink(host: String) = {
+  <a href="@{globals.scheme + "://" + host}" style="text-decoration: none !important; color: #555 !important;">@host</a>
+}
+
+<div>
+<p>Hallo,</p>
+
+<p>@* About including @username, see: [20KCQ5Y] *@
+Um die Erstellung deines Benutzerkontos mit dem Benutzernamen @username bei @grayBoringLink(siteAddress) abzuschließen, klicke bitte auf
+<a href="@Html(safeVerificationUrl)">diesen Link</a>.
+Der Link ist @{expirationTimeInHours - 1} Stunden gültig.
+</p>
+
+<p>Mit freundlichen Grüßen</p>
+</div>
+

@@ -1,0 +1,25 @@
+@(inviterName: String, siteHostname: String, probablyUsername: String, secretKey: String, globals: debiki.Globals)
+
+@siteUrl = @{ globals.originOf(siteHostname) }
+
+@acceptInviteUrl = @{
+  val origin = globals.originOf(siteHostname)
+  s"$origin${controllers.routes.InviteController.acceptInvite(secretKey)}"
+}
+
+<p>Hallo,</p>
+
+<p>@inviterName lädt Dich dazu ein, der Seite @* [5FJBAW2_] *@ <a href="@siteUrl">@siteHostname</a> beizutreten.</p>@* I18N *@
+
+<p>Klicke auf den unten stehenden Link, wenn Du der Einladung folgen möchtest:</p>
+
+<p><a href="@acceptInviteUrl">@acceptInviteUrl</a></p>
+
+<p>Durch Klick auf den Link wird für Dich ein Benutzerkonto angelegt und Du wirst automatisch angemeldet.
+Dein Benutzername ist dann <b>@probablyUsername</b> (wenn verfügbar, Du kannst ihn später ändern).
+Wir schicken Dir ebenfalls eine eMail zum Setzen deines Passworts.
+</p>
+
+<p>Mit freundlichen Grüßen</p>
+
+

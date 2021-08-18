@@ -1,0 +1,19 @@
+@(siteAddress: String, url: String, member: com.debiki.core.User, expiresInMinutes: Int)
+
+@import org.owasp.encoder.Encode
+
+@* Sync with Bash script extracting the admin's name and the url [ADMLOGINEML]
+in the talkyard-prod-one repo. The script is useful if email not yet configured.  *@
+<div>
+<p>Hallo @{member.nameOrUsername},</p>
+
+<p>
+um Dich bei <tt>@siteAddress</tt> als <tt>@@@{member.username}</tt> anzumelden, klicke bitte auf
+<a href="@Html(Encode.forUri(url))">
+  diesen Link</a>.
+Der Link ist @expiresInMinutes Minuten gültig und kann nur einmal verwendet werden.
+</p>
+
+<p>Mit freundlichen Grüßen</p>
+</div>
+
