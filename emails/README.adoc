@@ -1,0 +1,24 @@
+To diff translations:
+
+[src, bash]
+-----
+cd appsv/server/
+meld views/invite/inviteEmail.scala.html talkyard/server/emails/transl/de_DE/inviteEmail.scala.html  
+meld views/invite/inviteAcceptedEmail.scala.html talkyard/server/emails/transl/de_DE/inviteAcceptedEmail.scala.html 
+meld views/invite/welcomeSetPasswordEmail.scala.html talkyard/server/emails/transl/de_DE/welcomeSetPasswordEmail.scala.html 
+meld views/createaccount/accountAlreadyExistsEmail.scala.html talkyard/server/emails/transl/de_DE/accountAlreadyExistsEmail.scala.html 
+meld views/createaccount/accountAlreadyExistsEmail.scala.html talkyard/server/emails/transl/de_DE/accountAlreadyExistsEmail.scala.html 
+meld views/createaccount/accountApprovedEmail.scala.html talkyard/server/emails/transl/de_DE/accountApprovedEmail.scala.html 
+meld views/confirmOneMoreEmailAddressEmail.scala.html talkyard/server/emails/transl/de_DE/confirmOneMoreEmailAddressEmail.scala.html 
+meld views/createaccount/createAccountLinkEmail.scala.html talkyard/server/emails/transl/de_DE/createAccountLinkEmail.scala.html 
+meld views/createaccount/newMemberToApproveEmail.scala.html talkyard/server/emails/transl/de_DE/newMemberToApproveEmail.scala.html 
+meld views/createaccount/newMemberToApproveEmail.scala.html talkyard/server/emails/transl/de_DE/newMemberToApproveEmail.scala.html 
+meld views/adminlogin/oneTimeLoginLinkEmail.scala.html talkyard/server/emails/transl/de_DE/oneTimeLoginLinkEmail.scala.html 
+meld views/resetpassword/resetPasswordEmail.scala.html talkyard/server/emails/transl/de_DE/resetPasswordEmail.scala.html 
+meld views/login/verifyYourEmailAddrEmail.scala.html talkyard/server/emails/transl/de_DE/verifyYourEmailAddrEmail.scala.html 
+meld views/createaccount/welcomePage.scala.html talkyard/server/emails/transl/de_DE/welcomePage.scala.html 
+meld views/unsubscribe/youHaveBeenUnsubscribed.scala.html talkyard/server/emails/transl/de_DE/youHaveBeenUnsubscribed.scala.html 
+-----
+
+
+
