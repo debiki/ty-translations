@@ -990,7 +990,7 @@ var t_de_DE: TalkyardTranslations = t = {
     CreateUser: "Lege Benutzer an",
     CreateAccount: "Erstelle Konto",
     EmailC: "eMail:",  // REMOVE move to t.EmailC instead
-    keptPriv: "wird nicht beröffentlicht",
+    keptPriv: "wird nicht veröffentlicht",
     forNotfsKeptPriv: "für Benachrichtigungen, nicht öffentlich",
     EmailVerifBy_1: "Deine eMail wurde verifiziert von ",
     EmailVerifBy_2: ".",
