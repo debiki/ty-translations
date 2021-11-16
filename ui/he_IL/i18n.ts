@@ -784,6 +784,7 @@ var t_he_IL: TalkyardTranslations = t = {
     DraftsEtc: "Drafts etc",
     About: "About",
     Privacy: "Privacy",
+    Security: "Security",
     Account: "Account",
     Interface: "Interface",
 

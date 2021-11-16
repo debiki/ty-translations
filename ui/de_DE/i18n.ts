@@ -783,6 +783,7 @@ var t_de_DE: TalkyardTranslations = t = {
     DraftsEtc: "Entwürfe etc",
     About: "Über",
     Privacy: "Privatsphäre",
+    Security: "Sicherheit",  // MAYBE, GTR
     Account: "Konto",
     Interface: "Interface",
 

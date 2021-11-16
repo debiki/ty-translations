@@ -783,6 +783,7 @@ var t_nl_NL: TalkyardTranslations = t = {  // Dutch
     DraftsEtc: "Concepten etc",
     About: "Over",
     Privacy: "Privacy",
+    Security: "Veiligheid",  // MAYBE, GTR
     Account: "Account",
     Interface: "Interface",
 

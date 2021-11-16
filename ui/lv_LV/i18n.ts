@@ -780,6 +780,7 @@ var t_lv_LV: TalkyardTranslations = t = {
     DraftsEtc: "Melnraksti u.tml.",
     About: "Par",
     Privacy: "Privātums",
+    Security: "Drošība",  // MAYBE, GTR
     Account: "Konts",
     Interface: "Saskarne",
 

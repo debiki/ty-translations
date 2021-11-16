@@ -783,6 +783,7 @@ var t_uk_UA: TalkyardTranslations = t = {
     DraftsEtc: "Чернетки, тощо",
     About: "Про нас",
     Privacy: "Конфіденційність",
+    Security: "Безпека",  // MAYBE, GTR
     Account: "Обліковий запис",
     Interface: "Інтерфейс",
 
