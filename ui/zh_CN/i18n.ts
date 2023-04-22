@@ -24,6 +24,7 @@ var t_en_US: TalkyardTranslations = (t = {
   AddComment: "添加评论",
   Admin: "管理员",
   AdvSearch: "高级搜索",
+  Anonym: "匿名", // ChatGPT transl
   Away: "离开",
   Back: "返回",
   BlogN: "博客",
