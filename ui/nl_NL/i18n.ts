@@ -1232,9 +1232,6 @@ var t_nl_NL: TalkyardTranslations = t = {  // Dutch
     ShowEditorAgain: "Toon editor opnieuw",
     Minimize: "Minimaliseren",
 
-    IPhoneKbdSpace_1: "(Deze grijze ruimte is gereserveerd",
-    IPhoneKbdSpace_2: "voor het iPhone-toetsenbord.)",
-
     PreviewInfo: "Hier kunt u een voorbeeld bekijken van hoe uw bericht eruit zal zien.",
     CannotType: "U kunt hier niet typen.",
 

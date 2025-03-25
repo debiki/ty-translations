@@ -1230,9 +1230,6 @@ var t_pl_PL: TalkyardTranslations = t = {
     ShowEditorAgain: "Ponownie pokaż edytor",
     Minimize: "Zminimalizuj",
 
-    IPhoneKbdSpace_1: "(To szare miejsce jest zarezerwowane",
-    IPhoneKbdSpace_2: "dla klawiatury iPhone'a.)",
-
     PreviewInfo: "Tutaj możesz zobaczyć, jak będzie wyglądać Twój post.",
     CannotType: "Nie możesz tutaj pisać.",
 

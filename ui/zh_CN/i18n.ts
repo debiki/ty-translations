@@ -1143,9 +1143,6 @@ var t_zh_CN: TalkyardTranslations = (t = {
     ShowEditorAgain: "再次显示编辑器",
     Minimize: "最小化",
 
-    IPhoneKbdSpace_1: "（此灰色空间为",
-    IPhoneKbdSpace_2: "iPhone键盘保留。）",
-
     PreviewInfo: "您可以在此处预览您的发布内容。",
     CannotType: "您无法在此处键入。",
 

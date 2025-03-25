@@ -1228,9 +1228,6 @@ var t_lv_LV: TalkyardTranslations = t = {
     ShowEditorAgain: "Rādīt atkal rediģētāju",
     Minimize: "Minimizēt",
 
-    IPhoneKbdSpace_1: "(Šis pelēkais laukums ir rezervēts",
-    IPhoneKbdSpace_2: "iPhone klaviatūrai.)",
-
     PreviewInfo: "Te vari apskatīties, kā tavs ieraksts izskatīsies pēc publicēšanas.",
     CannotType: "Te nav iespējams neko ievadīt.",
 

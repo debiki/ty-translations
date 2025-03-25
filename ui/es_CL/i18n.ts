@@ -1228,9 +1228,6 @@ var t_es_CL: TalkyardTranslations = t = {
     ShowEditorAgain: "Mostrar editor nuevamente",
     Minimize: "Minimizar",
 
-    IPhoneKbdSpace_1: "(este espacio gris está reservado",
-    IPhoneKbdSpace_2: "para el teclado iPhone.)",
-
     PreviewInfo: "Aquí puedes ver como lucirá tu post.",
     CannotType: "No puedes escribir aquí.",
 

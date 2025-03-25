@@ -1231,9 +1231,6 @@ var t_uk_UA: TalkyardTranslations = t = {
     ShowEditorAgain: "Знову показати редактор",
     Minimize: "Згорнути",
 
-    IPhoneKbdSpace_1: "(Цей сірий простір зарезервовано",
-    IPhoneKbdSpace_2: "для клавіатури Айфону.)",
-
     PreviewInfo: "Тут ви можете переглянути, як буде виглядати ваш допис.",
     CannotType: "Тут не можна друкувати.",
 
