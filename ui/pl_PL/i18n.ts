@@ -686,8 +686,6 @@ var t_pl_PL: TalkyardTranslations = t = {
     About_2: " pokój rozmów, utworzony przez ",
     ScrollUpViewComments: "Przewiń do góry, aby wyświetlić starsze komentarze",
     Purpose: "Przeznaczenie:",
-    edit: "edytuj",
-    'delete': "usuń",
     MessageDeleted: "(wiadomość usunięta)",
     JoinThisChat: "Wejdź do tego czatu",
     PostMessage: "Wyślij wiadomość",

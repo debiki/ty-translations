@@ -685,8 +685,6 @@ var t_lv_LV: TalkyardTranslations = t = {
     About_2: " čata kanāls, ko izveidoja ",
     ScrollUpViewComments: "Skrollē uz augšu, lai redzētu vecākus komentārus",
     Purpose: "Mērķis:",
-    edit: "labot",
-    'delete': "dzēst",
     MessageDeleted: "(ziņa dzēsta)",
     JoinThisChat: "Pievienoties šim čatam",
     PostMessage: "Publicēt ziņu",

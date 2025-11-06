@@ -687,8 +687,6 @@ var t_uk_UA: TalkyardTranslations = t = {
     About_2: " канал балачки, створений ",
     ScrollUpViewComments: "Прокрутіть вгору, щоб переглянути попередні коментарі",
     Purpose: "Призначення:",
-    edit: "зредагувати",
-    'delete': "видалити",
     MessageDeleted: "(Повідомлення видалено)",
     JoinThisChat: "Приєднатися до цієї балачки",
     PostMessage: "Оприлюднити повідомлення",

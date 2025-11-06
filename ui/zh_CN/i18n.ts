@@ -643,8 +643,6 @@ var t_zh_CN: TalkyardTranslations = (t = {
     About_2: "创建的聊天频道。",
     ScrollUpViewComments: "向上滚动查看旧评论",
     Purpose: "目的：",
-    edit: "编辑",
-    delete: "删除",
     MessageDeleted: "（消息已删除）",
     JoinThisChat: "加入此聊天",
     PostMessage: "发布消息",

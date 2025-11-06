@@ -688,8 +688,6 @@ var t_nl_NL: TalkyardTranslations = t = {  // Dutch
     About_2: " chat kanaal, gemaakt door ",
     ScrollUpViewComments: "Omhoog scrollen om oudere opmerkingen te zien",
     Purpose: "Doel:",
-    edit: "bewerk",
-    'delete': "verwijder",
     MessageDeleted: "(Bericht verwijderd)",
     JoinThisChat: "Doe mee aan deze chat",
     PostMessage: "Post bericht",
